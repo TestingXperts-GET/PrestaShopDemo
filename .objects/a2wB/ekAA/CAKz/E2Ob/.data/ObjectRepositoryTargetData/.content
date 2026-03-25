@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fgWWCyeAw0qfXzkQSyG-yQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="0ada135a-7383-429f-b244-86118217c739" CvElementArea="538, 580, 525, 40" CvType="InputBox" DesignTimeRectangle="539, 581, 524, 38" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-id_state' tag='SELECT' type='' class='form-control form-control-select' aaname='               State           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ffc246cd-2b8b-4ceb-bd0c-6cbab92fa07a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0ada135a-7383-429f-b244-86118217c739" CvTextArea="468, 593, 42, 14" CvTextArgument="State" CvType="Text" DesignTimeRectangle="247, 581, 277, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               State           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='State' /&gt;" Guid="47357559-aa7f-42ab-afcb-8169b9dea140" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32ebe31d01c8e2e91a08fc1a6df34ad4.jpg" xmlns="">0bgYxp7U6GUqFYCLqPy-6zA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

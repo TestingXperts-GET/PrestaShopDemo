@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dy5lIljBeEGDKiVEtRDg4g" Reference="Wl74oFLMWU6qtdAr1TfF8A/THY-LhnnYky61XzbJh2xQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3f67837c-81b7-4eb7-b43b-a016e070060f" DesignTimeRectangle="992, 707, 99, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="9860f6cb-bafe-4641-a914-0fa58b3952b2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">"&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl class='customization-label' tag='LABEL' innertext='"+customMessage+"' /&gt;"</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="81f884c4af2b6d97e5b1f9950241f90d.jpg" xmlns="">0gGmxNoNa8EGdFVXNh7Q0Cw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

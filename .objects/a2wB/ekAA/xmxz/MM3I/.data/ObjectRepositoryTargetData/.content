@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MOPgl2r0hUa4Q-vdsCMsMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="0295b6bb-f06f-4639-8dee-03949fe72eff" CvElementArea="285, 25, 20, 19" CvType="CloseButton" DesignTimeRectangle="283, 25, 24, 22" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Update password?' role='alert' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="d0462c5e-104b-483b-8c75-2ea2bcd382c8" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Update password?' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="71063e760a5f224963276a4519a48408.jpg" xmlns="">0cpYDchzUjUiDr_pIgbfL1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

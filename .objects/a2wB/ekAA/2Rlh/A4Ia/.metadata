@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Save Customization",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "A4IaW69HrUabXeG76d7JIQ",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/A4IaW69HrUabXeG76d7JIQ",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/2RlhxIhGekyMl1dk_hHxag",
+  "Created": "2026-03-10T07:49:29.5140043Z",
+  "Updated": "2026-03-10T07:49:29.5140043Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

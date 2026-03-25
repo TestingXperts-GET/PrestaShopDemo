@@ -1,0 +1,13 @@
+﻿{
+  "Name": " Order history and det…",
+  "Type": "Element",
+  "Id": "0z2bJ48EAEGNADjKei372A",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/0z2bJ48EAEGNADjKei372A",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T05:52:10.4780762Z",
+  "Updated": "2026-03-11T05:52:10.4780762Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

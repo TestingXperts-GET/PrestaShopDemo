@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Test Vishu",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "XsGash_ZJUGydC1qwHmYtA",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/XsGash_ZJUGydC1qwHmYtA",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/YAdOhrQc7kerMFkbk-G8Iw",
+  "Created": "2026-03-10T12:59:39.1699974Z",
+  "Updated": "2026-03-10T12:59:39.1699974Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

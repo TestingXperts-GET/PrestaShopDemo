@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UVvjeB2rJUa2SFJiTqrGiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="a85c9f92-06e7-4ffc-86a9-209169031a01" DesignTimeRectangle="1148, 162, 79, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_user_info' tag='DIV' /&gt;" Guid="5ea8f010-7f4c-4d21-bf4f-8b8bed63b46d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4953d05b72a37a22d9023d8fc5189ba9.jpg" xmlns="">0mQbZbzl5cUCs3Y1q9V1xWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

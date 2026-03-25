@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U76qcTdGb0eVIDxAAJ22TA" Reference="Wl74oFLMWU6qtdAr1TfF8A/2pKglTmahkGQuurJ_p0RLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="9e2a3dd0-e527-4a55-9cf8-86a75a5c1fb5" CvElementArea="768, 394, 221, 46" CvTextArea="790, 409, 176, 17" CvTextArgument="CONTINUE SHOPPING" CvType="Button" DesignTimeRectangle="763, 549, 215, 42" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aaname='Continue shopping' parentid='blockcart-modal' tag='BUTTON' type='button' /&gt;" Guid="41e5209e-a757-4ea0-9882-6249cb54c323" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="acff9062e2cd5da3084ff4483bfc0b54.jpg" xmlns="">0AylyUB86bEmgW_pgFRssug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

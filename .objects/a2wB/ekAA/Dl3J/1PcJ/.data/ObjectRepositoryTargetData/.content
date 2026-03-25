@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MKYNkJLCsk2dFfY7eLTxFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="6852b421-5381-455c-9ccb-bc1f3b32a626" CvElementArea="461, 502, 305, 43" CvType="InputBox" DesignTimeRectangle="463, 505, 300, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-postcode' tag='INPUT' type='text' class='form-control' aaname='               Zip/Postal Code           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8415e7e3-ef60-4c9a-87a2-465515218cb6" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6852b421-5381-455c-9ccb-bc1f3b32a626" CvTextArea="295, 517, 118, 17" CvTextArgument="Zip/Postal Code" CvType="Text" DesignTimeRectangle="283, 505, 165, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               Zip/Postal Code           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zip/Postal Code' /&gt;" Guid="a16033c1-679d-4e2f-95cd-01c1ceba25dc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="547843af445d0e19c42401089d92d0b5.jpg" xmlns="">0sqTXSYat3U-fspmOgXnK9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

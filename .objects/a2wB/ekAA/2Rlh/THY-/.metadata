@@ -1,0 +1,14 @@
+﻿{
+  "Name": "happy badday",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "THY-LhnnYky61XzbJh2xQg",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/THY-LhnnYky61XzbJh2xQg",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/2RlhxIhGekyMl1dk_hHxag",
+  "Created": "2026-03-10T07:50:12.4812695Z",
+  "Updated": "2026-03-10T07:50:12.4812695Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

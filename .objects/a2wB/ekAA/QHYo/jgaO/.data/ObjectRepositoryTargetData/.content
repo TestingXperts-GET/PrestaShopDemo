@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yzmbtqRDJ0GwCVep-K1WBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="condemned-smile.demo.prestashop.com/my-account" CVScreenId="ff95cdad-a600-493b-883c-fc96616fe1b7" CvElementArea="243, 331, 355, 115" CvTextArea="362, 407, 116, 17" CvTextArgument="INFORMATION" CvType="Button" DesignTimeRectangle="246, 335, 350, 107" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='identity-link' tag='SPAN' /&gt;" Guid="0684a1a9-d7b1-4633-be83-fa038ab2191f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="81e6d0454c7316165239faed3db67c97.jpg" xmlns="">07pc2CcvP4UefunFP2VZDbg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

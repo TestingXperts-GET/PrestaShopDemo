@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kWYNvajcH0a_VJ_hBJFhdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="9cb90817-9c11-402f-896d-a27392e42440" DesignTimeRectangle="930, 349, 187, 26" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="bf736e58-dff5-4d89-944a-4b0f6161ae79" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aaname='{0}' parentid='_desktop_language_selector' tag='A' /&gt;", lang)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="4283d6abafab315283dbbbb2327ab83b.jpg" xmlns="">0ydVSOoV81kaFQZqmSaAVdg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="lang" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

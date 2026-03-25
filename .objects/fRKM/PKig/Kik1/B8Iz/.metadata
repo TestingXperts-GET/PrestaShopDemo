@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Today",
+  "Type": "Element",
+  "Id": "B8Iz2h2eikiZh2hbmpmjdw",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/B8Iz2h2eikiZh2hbmpmjdw",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/Kik1g-fzlEC8ldHiPh91DQ",
+  "Created": "2026-03-11T06:14:24.6334804Z",
+  "Updated": "2026-03-11T06:14:24.6334804Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,441 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SelectItem" this:SelectItem.ReportID="0" this:SelectItem.RowNo="0" this:SelectItem.RowNoProduct="0" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ar="clr-namespace:atuipath_utilities.Report;assembly=atuipath_utilities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="SuiteID" Type="InArgument(x:String)" />
+    <x:Property Name="TestID" Type="InArgument(x:String)" />
+    <x:Property Name="ReportID" Type="InArgument(x:Int32)" />
+    <x:Property Name="ExcelPath" Type="InArgument(x:String)" />
+    <x:Property Name="RowNo" Type="InArgument(x:Int32)" />
+    <x:Property Name="RowNoProduct" Type="InArgument(x:Int32)" />
+  </x:Members>
+  <this:SelectItem.ExcelPath>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SelectItem.ExcelPath>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>atuipath_utilities.Report</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Jira.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>atuipath_utilities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Text.Json</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="SelectItem" sap:VirtualizedContainerService.HintSize="939,5000" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="Happy Birthday to you" Name="customMessage" />
+      <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
+      <Variable x:TypeArguments="x:String" Default="Customizable mug" Name="ProductName" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="594,120" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Sheet1">
+      <ui:ReadRange.DataTable>
+        <OutArgument x:TypeArguments="sd:DataTable">
+          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">ExcelData</CSharpReference>
+        </OutArgument>
+      </ui:ReadRange.DataTable>
+      <ui:ReadRange.WorkbookPath>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">ExcelPath</CSharpValue>
+        </InArgument>
+      </ui:ReadRange.WorkbookPath>
+    </ui:ReadRange>
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="594,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+      <ui:MultipleAssign.AssignOperations>
+        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">customMessage</CSharpReference>
+              </OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">ExcelData.Rows[RowNo]["CustomMessage"].ToString()</CSharpValue>
+              </InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">ProductName</CSharpReference>
+              </OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">ExcelData.Rows[RowNoProduct]["ProductName"].ToString()</CSharpValue>
+              </InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+        </scg:List>
+      </ui:MultipleAssign.AssignOperations>
+    </ui:MultipleAssign>
+    <Sequence sap:VirtualizedContainerService.HintSize="594,4677" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome PrestaShop Live Demo(4)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,4594" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="558,4400" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NCheckState DisplayName="Check App State 'Home Sample 1 EXCEPTEUR…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="524,4336" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="522,3554" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ar:passedStep sap:VirtualizedContainerService.HintSize="488,387" sap2010:WorkflowViewState.IdRef="passedStep_1" str_in_actualStep="Page Loaded Successfully" str_in_expectedStep="Page Loaded Successfully" str_in_stepDescription="Checking if page gets loaded" str_in_stepName="Page Loaded Successfully">
+                      <ar:passedStep.str_in_reportId>
+                        <InArgument x:TypeArguments="x:Int32">
+                          <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">ReportID</CSharpValue>
+                        </InArgument>
+                      </ar:passedStep.str_in_reportId>
+                      <ar:passedStep.str_in_testId>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">TestID</CSharpValue>
+                        </InArgument>
+                      </ar:passedStep.str_in_testId>
+                    </ar:passedStep>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home Sample 1 EXCEPTEUR…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="fd6c53d1-01f1-475c-83f1-9cbbfa7501d6" ContentHash="0nKiMHt0AEaeUIxyhYVZ6Q" DesignTimeRectangle="310, 461, 126, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="a9ed8f34-37cd-4ed2-a321-a10a49929b00" InformativeScreenshot="32572b2a3b26ce5b30baf292b1a06f26.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/bQvGLS1080eHKZ71gdmcCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.FullSelectorArgument>
+                            <InArgument x:TypeArguments="x:String">
+                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">"&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='js-product-list' tag='A' innertext='"+ProductName+"' /&gt;"</CSharpValue>
+                            </InArgument>
+                          </uix:TargetAnchorable.FullSelectorArgument>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NCheckState DisplayName="Check App State 'Home Accessories Home A…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,2905" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,2123" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ar:passedStep sap:VirtualizedContainerService.HintSize="452,387" sap2010:WorkflowViewState.IdRef="passedStep_3" str_in_actualStep="Item customizable" str_in_expectedStep="Item customizable" str_in_stepDescription="Item customizable" str_in_stepName="Item customizable">
+                            <ar:passedStep.str_in_reportId>
+                              <InArgument x:TypeArguments="x:Int32">
+                                <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">ReportID</CSharpValue>
+                              </InArgument>
+                            </ar:passedStep.str_in_reportId>
+                            <ar:passedStep.str_in_testId>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">TestID</CSharpValue>
+                              </InArgument>
+                            </ar:passedStep.str_in_testId>
+                          </ar:passedStep>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Type your text here'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" ContentHash="kSLMu4c_WUeUIIOuYxdn7g" DesignTimeRectangle="836, 519, 500, 50" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-textField1' tag='TEXTAREA' type='' class='product-message' placeholder='Your message here' aaname='Type your text here' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c87edbd7-00dc-4b50-9de7-130cb98133f7" InformativeScreenshot="93fcd11a7bf1a4003fdda45614b118cc.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/RzD1HmBGy0CRSmKq2UMbKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" DesignTimeRectangle="836, 491, 131, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='LABEL' type='' class='' aaname='Type your text here' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Type your text here' /&gt;" Guid="ceb893ec-489f-45f5-9f08-139e89c1cbdb" SearchSteps="FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                            <uix:NTypeInto.Text>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">customMessage</CSharpValue>
+                              </InArgument>
+                            </uix:NTypeInto.Text>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save Customization'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" ContentHash="4RPwsZrxKUGz6iGJSig6fQ" CvElementArea="1112, 607, 226, 42" CvTextArea="1133, 620, 184, 17" CvTextArgument="SAVE CUSTOMIZATION" CvType="Button" DesignTimeRectangle="1114, 610, 222, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="dfc7248b-c368-4673-af0d-d389b8f13186" InformativeScreenshot="2f2bd65c8ed297a5de07139ba4949c8b.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/A4IaW69HrUabXeG76d7JIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NCheckState DisplayName="Check App State 'happy badday'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1224" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
+                            <uix:NCheckState.IfExists>
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ar:passedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="passedStep_4" str_in_actualStep="customized product" str_in_expectedStep="customized product" str_in_stepDescription="customized product" str_in_stepName="customized product">
+                                  <ar:passedStep.str_in_reportId>
+                                    <InArgument x:TypeArguments="x:Int32">
+                                      <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">ReportID</CSharpValue>
+                                    </InArgument>
+                                  </ar:passedStep.str_in_reportId>
+                                  <ar:passedStep.str_in_testId>
+                                    <InArgument x:TypeArguments="x:String">
+                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">TestID</CSharpValue>
+                                    </InArgument>
+                                  </ar:passedStep.str_in_testId>
+                                </ar:passedStep>
+                              </Sequence>
+                            </uix:NCheckState.IfExists>
+                            <uix:NCheckState.IfNotExists>
+                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ar:failedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="failedStep_4" str_in_actualStep="not customized product" str_in_expectedStep="customized product" str_in_stepDescription="not customized product" str_in_stepName="not customized product">
+                                  <ar:failedStep.str_in_reportId>
+                                    <InArgument x:TypeArguments="x:Int32">
+                                      <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">ReportID</CSharpValue>
+                                    </InArgument>
+                                  </ar:failedStep.str_in_reportId>
+                                  <ar:failedStep.str_in_testId>
+                                    <InArgument x:TypeArguments="x:String">
+                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">TestID</CSharpValue>
+                                    </InArgument>
+                                  </ar:failedStep.str_in_testId>
+                                </ar:failedStep>
+                              </Sequence>
+                            </uix:NCheckState.IfNotExists>
+                            <uix:NCheckState.Target>
+                              <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="3f67837c-81b7-4eb7-b43b-a016e070060f" ContentHash="dy5lIljBeEGDKiVEtRDg4g" DesignTimeRectangle="992, 707, 99, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="9860f6cb-bafe-4641-a914-0fa58b3952b2" InformativeScreenshot="81f884c4af2b6d97e5b1f9950241f90d.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/THY-LhnnYky61XzbJh2xQg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+                                <uix:TargetAnchorable.FullSelectorArgument>
+                                  <InArgument x:TypeArguments="x:String">
+                                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">"&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl class='customization-label' tag='LABEL' innertext='"+customMessage+"' /&gt;"</CSharpValue>
+                                  </InArgument>
+                                </uix:TargetAnchorable.FullSelectorArgument>
+                              </uix:TargetAnchorable>
+                            </uix:NCheckState.Target>
+                          </uix:NCheckState>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,442" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ar:failedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="failedStep_3" str_in_actualStep="Item not customizable" str_in_expectedStep="Item customizable" str_in_stepDescription="Item not customizable" str_in_stepName="Item not customizable">
+                            <ar:failedStep.str_in_reportId>
+                              <InArgument x:TypeArguments="x:Int32">
+                                <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">ReportID</CSharpValue>
+                              </InArgument>
+                            </ar:failedStep.str_in_reportId>
+                            <ar:failedStep.str_in_testId>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">TestID</CSharpValue>
+                              </InArgument>
+                            </ar:failedStep.str_in_testId>
+                          </ar:failedStep>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="684167ee-448d-4336-87a4-c34516415422" ContentHash="u_qxmZVlYEmZjeot5_-b1w" DesignTimeRectangle="1114, 623, 222, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' aaname='Save Customization' name='submitCustomizedData' /&gt;" Guid="ee7e386b-8461-4ae2-ba75-a1a31af13e0e" InformativeScreenshot="7343d01728ff051a10de3ef6503604d4.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/i1E_dYk-l06Z-AHbl2QbHQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="522,442" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ar:failedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="failedStep_2" str_in_actualStep="Page not Loaded" str_in_expectedStep="Page should be loaded" str_in_stepDescription="Check for page gets loaded" str_in_stepName="Page Not Loaded">
+                      <ar:failedStep.str_in_reportId>
+                        <InArgument x:TypeArguments="x:Int32">
+                          <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">ReportID</CSharpValue>
+                        </InArgument>
+                      </ar:failedStep.str_in_reportId>
+                      <ar:failedStep.str_in_testId>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">TestID</CSharpValue>
+                        </InArgument>
+                      </ar:failedStep.str_in_testId>
+                    </ar:failedStep>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="fd6c53d1-01f1-475c-83f1-9cbbfa7501d6" ContentHash="0nKiMHt0AEaeUIxyhYVZ6Q" DesignTimeRectangle="310, 461, 126, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="a9ed8f34-37cd-4ed2-a321-a10a49929b00" InformativeScreenshot="32572b2a3b26ce5b30baf292b1a06f26.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/bQvGLS1080eHKZ71gdmcCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.FullSelectorArgument>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">"&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='js-product-list' tag='A' innertext='"+ProductName+"' /&gt;"</CSharpValue>
+                      </InArgument>
+                    </uix:TargetAnchorable.FullSelectorArgument>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.CloseMode>
+          <InArgument x:TypeArguments="uix:NAppCloseMode">
+            <CSharpValue x:TypeArguments="uix:NAppCloseMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">UiPath.UIAutomationNext.Enums.NAppCloseMode.Never</CSharpValue>
+          </InArgument>
+        </uix:NApplicationCard.CloseMode>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1616, 868" BrowserType="Chrome" ContentHash="4YnM2cVcBkWwmaFrqr4kUA" IconBase64="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" InformativeScreenshot="730f281efebe169b1f2d19edea630fa9.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/2RlhxIhGekyMl1dk_hHxag" Selector="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" Url="https://demo.prestashop.com*" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

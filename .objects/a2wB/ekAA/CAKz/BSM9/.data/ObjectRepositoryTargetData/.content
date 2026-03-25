@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lHIKD1GksEi5Emi_91lLeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="7df96d6c-93d6-4cb8-94d1-defdb324f7cc" CvElementArea="624, 520, 353, 113" CvTextArea="741, 595, 119, 17" CvTextArgument="MY WISHLISTS" CvType="Button" DesignTimeRectangle="626, 524, 350, 106" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='wishlist-link' tag='SPAN' /&gt;" Guid="b56892f6-31e3-4cb4-a198-b7d5bd387df3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b08810d2d387aa8e48fde46498a931d5.jpg" xmlns="">0-gLjw0YBlE6l8fyRoA-t8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

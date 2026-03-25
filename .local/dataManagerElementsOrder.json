@@ -41,22 +41,6 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Data.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Credential.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
       "Path": "SignIn.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
@@ -65,55 +49,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "InformationUpdate.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "AddFirstAddress.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "OrderDetails.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "CreditSlips.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "MyWishList.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "GDPR.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "MyAlerts.xaml",
+      "Path": "CheckOut.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -129,7 +65,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "GuestOrderTracking.xaml",
+      "Path": "Subscribe.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -137,7 +73,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "AddToCart_Art.xaml",
+      "Path": "SelectItem.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -145,7 +81,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "AddToCart_HomeAccess.xaml",
+      "Path": "AddToCart.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -153,7 +89,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "AddToCart_Men.xaml",
+      "Path": "ProfileOptions.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -161,7 +97,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "AddToCart_Stationary.xaml",
+      "Path": "Payment.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -169,7 +105,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "AddToCart_Women.xaml",
+      "Path": "Billing.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -177,7 +113,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "CheckOut.xaml",
+      "Path": "LanguageChange.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,

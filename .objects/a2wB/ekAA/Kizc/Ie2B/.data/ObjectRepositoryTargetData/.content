@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jc5l0rTYoEexibeRSrC2kg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="93675ba2-2cc9-4545-811c-ae0cb0ab318f" DesignTimeRectangle="929, 110, 56, 22" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="dbc6b694-6d36-4e9a-9994-b01abb79cfb5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl class='expand-more' matching:class='fuzzy' fuzzylevel:class='0.0' tag='SPAN' type='' aaname='{0}' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='English' /&gt;", language)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="83f2a6dfa5e99235a7a0d57124caec48.jpg" xmlns="">0o9bky99uCkaT1pHqVZxsTA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="language" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "close Product successf…(2)",
+  "Type": "Element",
+  "Id": "KCUgkBG6REirBgu06wwrJg",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/KCUgkBG6REirBgu06wwrJg",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/PYwLwB-8hUqtPNHpIMS13A",
+  "Created": "2026-03-09T11:56:39.6638307Z",
+  "Updated": "2026-03-09T11:56:39.6638307Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

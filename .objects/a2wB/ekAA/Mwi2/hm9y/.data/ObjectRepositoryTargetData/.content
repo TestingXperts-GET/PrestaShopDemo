@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j1SvcS8DwUWF7vd9LMyXRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="74527532-eb67-4aab-8d64-7a34bce3fa2c" CvElementArea="297, 603, 157, 42" CvTextArea="319, 616, 114, 17" CvTextArgument="PLACE ORDER" CvType="Button" DesignTimeRectangle="300, 606, 153, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='payment-confirmation' tag='BUTTON' type='submit' /&gt;" Guid="de0bd4ef-6622-4006-b916-c64a0e7bb3fb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dddd70e10a3a803a69567b13d6755ba0.jpg" xmlns="">0G8R6euKTgkGueVUalm8GqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

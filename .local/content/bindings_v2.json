@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Get Secret",
+      "activityId": "GetSecret_1",
+      "resource": "asset",
+      "key": "yadavvishu2710@gmail.com's workspace.SecureCredentials",
+      "id": "assetyadavvishu2710@gmail.com's workspace.SecureCredentialsyadavvishu2710@gmail.com's workspaceFalseSecureCredentialsFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "yadavvishu2710@gmail.com's workspace",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "SecureCredentials",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    }
+  ]
+}

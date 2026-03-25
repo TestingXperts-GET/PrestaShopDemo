@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Home Accessories Home A…",
+  "Type": "Element",
+  "Id": "i1E_dYk-l06Z-AHbl2QbHQ",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/i1E_dYk-l06Z-AHbl2QbHQ",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/2RlhxIhGekyMl1dk_hHxag",
+  "Created": "2026-03-10T07:11:27.7745032Z",
+  "Updated": "2026-03-10T07:11:27.7745032Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

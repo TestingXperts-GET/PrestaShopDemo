@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WZq5w53qKEqit3oGaysmHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" DesignTimeRectangle="291, 709, 250, 60" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="2fdf4169-7f3e-4d58-8fa6-987f5bac009d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl class='wishlist-product-title' tag='P' aaname='{0}' /&gt;", product)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="a9ff173d39f7635951c4e46e10ffb334.jpg" xmlns="">0snf_ouXTekyf4yeW8yRUzA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="Hummingbird printed sweater" IsVariable="False" Name="product" />
+    </scg:List>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

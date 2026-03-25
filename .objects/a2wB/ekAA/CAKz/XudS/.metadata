@@ -1,0 +1,14 @@
+﻿{
+  "Name": "GET MY DATA TO PDF",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "XudSx65LLkWCia2mRv_T4A",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/XudSx65LLkWCia2mRv_T4A",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T06:01:44.5338335Z",
+  "Updated": "2026-03-11T06:01:44.5338335Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

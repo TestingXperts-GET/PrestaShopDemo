@@ -1,0 +1,13 @@
+﻿{
+  "Name": " Information",
+  "Type": "Element",
+  "Id": "jgaOlbTwNkapja5mgdM3-w",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/jgaOlbTwNkapja5mgdM3-w",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/QHYoypPraUuSedmcvjoPbw",
+  "Created": "2026-03-10T13:19:30.633462Z",
+  "Updated": "2026-03-10T13:19:30.633462Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

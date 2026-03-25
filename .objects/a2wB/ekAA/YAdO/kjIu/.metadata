@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Back to your account",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "kjIuMFM2vUmW9_eN4aAZow",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/kjIuMFM2vUmW9_eN4aAZow",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/YAdOhrQc7kerMFkbk-G8Iw",
+  "Created": "2026-03-11T06:44:46.1502303Z",
+  "Updated": "2026-03-11T06:44:46.1502303Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "ZipPostal Code",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "xCh9MMWVUk6RVwM8kZ1M6A",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/xCh9MMWVUk6RVwM8kZ1M6A",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T07:01:54.2750783Z",
+  "Updated": "2026-03-11T07:01:54.2750783Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

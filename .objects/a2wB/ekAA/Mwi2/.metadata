@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome PrestaShop Live Demo(9)",
+  "Type": "Screen",
+  "Id": "Mwi2aSIBHkSCs955jKewew",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/Mwi2aSIBHkSCs955jKewew",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/ekAAWmNwJ0SYWhHn-iGDww",
+  "Created": "2026-03-10T11:08:00.4549188Z",
+  "Updated": "2026-03-10T11:08:00.4549188Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

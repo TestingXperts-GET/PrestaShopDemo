@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="OFTC07yRK0m3_mZOUnvo5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="UGwACmFdzU-NiL4jh7qgsA" Reference="Wl74oFLMWU6qtdAr1TfF8A/aqXTDNiAMEGyH8ZQh3L28w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3a5b1dd9-7fb8-4950-ac49-214029ed1489" DesignTimeRectangle="617, 649, 685, 55" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='footer' tag='LI' /&gt;" Guid="402a43c5-bbc9-45b6-b7ed-015a7ee50e88" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="e9af7463dce18eb485dbd3cb7a31bb35.jpg" xmlns="">0aQwiU6fXYE-ri0jxJuOWnw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="a9f98801-39d9-4f5b-8372-9c34a6aacad0" DesignTimeRectangle="1095, 735, 24, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl class='material-icons' parentid='add-to-cart-or-refresh' /&gt;" Guid="b4ac6edd-b477-4dcb-9147-dae1d3538004" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="42ba9e76f2d2586d9456c8309df4750b.jpg" xmlns="">0Q3xZNQ4sRkK-7dkZVYFJdA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

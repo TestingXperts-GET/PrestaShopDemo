@@ -1,0 +1,14 @@
+﻿{
+  "Name": "My alerts",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "d8-jGWPWWku6PUOHc6wJZQ",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/d8-jGWPWWku6PUOHc6wJZQ",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T06:21:49.46768Z",
+  "Updated": "2026-03-11T06:21:49.46768Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

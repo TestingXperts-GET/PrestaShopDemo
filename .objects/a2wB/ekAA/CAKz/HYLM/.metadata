@@ -1,0 +1,13 @@
+﻿{
+  "Name": " Credit slips",
+  "Type": "Element",
+  "Id": "HYLMMo2HdE-u7K6CrXj_8g",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/HYLMMo2HdE-u7K6CrXj_8g",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T05:57:33.3662429Z",
+  "Updated": "2026-03-11T05:57:33.3662429Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

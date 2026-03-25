@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QzxkdEgOyUe94SFnb5-aZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3ea5b97d-271f-4783-9951-ffa10ca241e9" CvElementArea="537, 387, 21, 21" CvType="CheckBox" DesignTimeRectangle="539, 391, 18, 18" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl name='psgdpr' tag='INPUT' type='checkbox' class='' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c8a1ceaf-2e58-4eef-8cda-686cef1bfb5d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3ea5b97d-271f-4783-9951-ffa10ca241e9" DesignTimeRectangle="539, 387, 413, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='LABEL' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I agree to the terms and conditions and the privacy policy' /&gt;" Guid="6fd4db79-e2c3-4c04-bb74-5f9ff76bcb70" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="2" Y="2" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="10f5d42ec627b74656d03a35c1326de4.jpg" xmlns="">03vBsIJeUvE6YWHOPTejeZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

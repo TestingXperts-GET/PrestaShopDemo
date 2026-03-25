@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-doKNy67w021OJbJY0Xj8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7cd9c353-3bf6-4eda-bf59-fd67626c0771" DesignTimeRectangle="61, 302, 63, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' /&gt;&lt;wnd cls='SysTreeView32' title='Navigation Pane' /&gt;&lt;ctrl name='Downloads (pinned)' role='outline item' /&gt;" Guid="15e12c5d-5d79-4bcf-862a-03b6d01d5ced" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Downloads - File Explorer' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7cd9c353-3bf6-4eda-bf59-fd67626c0771" CvTextArea="274, 172, 43, 17" CvTextArgument="Today" CvType="Text" DesignTimeRectangle="274, 169, 44, 21" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Items View' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='UIGroupHeader' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Today' /&gt;" Guid="e28c9344-a820-4959-a54e-9acb5257f07a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d3e85c2d69838133c2dde62f876818c.jpg" xmlns="">0YgGW6lii5Ue0kEsxHSmwnQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

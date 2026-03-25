@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Credit slips you have r…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "WaV_O44aBEK5HvpHm7VA5g",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/WaV_O44aBEK5HvpHm7VA5g",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T05:58:08.7470945Z",
+  "Updated": "2026-03-11T05:58:08.7470945Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "DisplayName": "ProfileOptions",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "ProfileChoice",
+      "DisplayName": "ProfileChoice",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ExcelPath",
+      "DisplayName": "ExcelPath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "SuiteID",
+      "DisplayName": "SuiteID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "TestID",
+      "DisplayName": "TestID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ReportID",
+      "DisplayName": "ReportID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DOBRow",
+      "DisplayName": "DOBRow",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "NewPasswordRow",
+      "DisplayName": "NewPasswordRow",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "NewAddressRow",
+      "DisplayName": "NewAddressRow",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "NewCityRow",
+      "DisplayName": "NewCityRow",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "NewZipRow",
+      "DisplayName": "NewZipRow",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "NewStateRow",
+      "DisplayName": "NewStateRow",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

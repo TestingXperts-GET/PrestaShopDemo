@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Rc_Q8rB1xUKGvpLVSYYC3A" Reference="Wl74oFLMWU6qtdAr1TfF8A/XkD3GMXH50C-x9sNOeJl6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="condemned-smile.demo.prestashop.com/identity" CVScreenId="25e4995b-de3e-4a97-8199-f6ce1f28b5f5" CvElementArea="538, 668, 525, 40" CvType="InputBox" DesignTimeRectangle="539, 669, 524, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='field-birthday' tag='INPUT' type='text' class='form-control' placeholder='MM/DD/YYYY' aaname='               Birthdate           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="92f57281-04ca-47f3-b847-1e4bf1b21236" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Identity' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="25e4995b-de3e-4a97-8199-f6ce1f28b5f5" CvTextArea="439, 680, 71, 15" CvTextArgument="Birthdate" CvType="Text" DesignTimeRectangle="247, 669, 277, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='               Birthdate           ' tag='LABEL' type='' class='col-md-3 form-control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Birthdate' /&gt;" Guid="374ef3c0-06e1-4e85-a032-c864e90ac74a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="05dd74f33a11cab5c04efbae05410468.jpg" xmlns="">0R43dU_UmSkaL6cvQ2cJwcw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

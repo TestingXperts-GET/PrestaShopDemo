@@ -1,0 +1,14 @@
+﻿{
+  "Name": "My wishlists",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oIyy_ITHkkuZ26LI4nqxsQ",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/oIyy_ITHkkuZ26LI4nqxsQ",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T06:52:40.5708097Z",
+  "Updated": "2026-03-11T06:52:40.5708097Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

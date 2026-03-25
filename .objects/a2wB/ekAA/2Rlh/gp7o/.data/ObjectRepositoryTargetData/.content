@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3S1ZVnlhdk24s48oGUvQpw" Reference="Wl74oFLMWU6qtdAr1TfF8A/gp7ouZddeEqUY3JGmgteTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="b843fff7-391e-4e3e-891c-b965abe54780" DesignTimeRectangle="567, 474, 753, 62" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='content' tag='DIV' /&gt;" Guid="898e842f-a31d-403d-9667-f50e9b4c9644" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="02da409018ef995ac9af4171b085acc8.jpg" xmlns="">0ubKE9Lycwky2YAIJBVSKRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

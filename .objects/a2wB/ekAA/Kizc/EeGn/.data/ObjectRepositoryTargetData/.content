@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wKULivOo0kqh1JeJphuuIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="a6233baf-3f22-424b-a8ef-3d099c93cd18" DesignTimeRectangle="929, 262, 77, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' class='hidden-sm-down btn-unstyle' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='English ' /&gt;" Guid="1bd02497-d348-4fad-a2ad-b81ba5240779" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="affb6b3f1efa68f8e27c1ab13d546eb1.jpg" xmlns="">0BuT-kaQaXEC0FEU5Jwcw1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

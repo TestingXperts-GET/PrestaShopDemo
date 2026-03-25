@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OcgR8B3mRkia_Eu7yThO_w" Reference="Wl74oFLMWU6qtdAr1TfF8A/NVNBkLsM5UGu9AAH69PFVQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="51441e97-5127-43d7-ab7c-94cd2934d4bc" DesignTimeRectangle="310, 701, 126, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="2ee7511a-e4c4-421e-bac4-ed32bf951931" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aaname='{0}' parentid='js-product-list' tag='A' /&gt;", selectItems2)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="0718bc0861076d6414ee3d0b50fefbb8.jpg" xmlns="">0aR345G8ORU23XKOuHUaW4w</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="" Name="selectItems2" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

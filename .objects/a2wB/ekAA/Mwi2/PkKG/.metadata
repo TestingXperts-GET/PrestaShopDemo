@@ -1,0 +1,14 @@
+﻿{
+  "Name": "lagree to the terms of …",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "PkKGbzVLIkSNa4yP0QtqGw",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/PkKGbzVLIkSNa4yP0QtqGw",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/Mwi2aSIBHkSCs955jKewew",
+  "Created": "2026-03-10T11:15:31.9056896Z",
+  "Updated": "2026-03-10T11:15:31.9056896Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

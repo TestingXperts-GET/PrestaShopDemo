@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="6LbN5uMCBUq1zegXSpw16w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="qtikepbznEym7RmmLzKa3g" Reference="Wl74oFLMWU6qtdAr1TfF8A/x51gVBT-9U-SKQ32lhI6cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="8081882c-6c97-4495-9608-d40b50f6b37d" DesignTimeRectangle="1029, 162, 95, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_user_info' tag='A' /&gt;" Guid="2bebf963-6901-4226-b1c6-a56cc386e58e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="7fd095c86e4e4e70f3318d07ab1a3b22.jpg" xmlns="">0RNzmnUw1y02Ykp_FGO9ZSA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="8081882c-6c97-4495-9608-d40b50f6b37d" DesignTimeRectangle="1029, 262, 95, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_user_info' tag='A' visibleinnertext=' Sign out ' /&gt;" Guid="2bebf963-6901-4226-b1c6-a56cc386e58e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b77e6772b44889538d540fbf3b0913cd.jpg" xmlns="">0M1jI0ddiV0SfRon1xlmzGg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "chevron_leftReturn to y…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "W2KBW48EWEiJ4olJ-CxVUQ",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/W2KBW48EWEiJ4olJ-CxVUQ",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T06:51:48.2597179Z",
+  "Updated": "2026-03-11T06:51:48.2597179Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

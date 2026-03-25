@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TfqYj1HV5UGZzY09sU30hw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3a6fb906-562e-476b-a3c2-e6f8d2a74ca3" DesignTimeRectangle="61, 302, 63, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' /&gt;&lt;wnd cls='SysTreeView32' title='Navigation Pane' /&gt;&lt;ctrl name='Downloads (pinned)' role='outline item' /&gt;" Guid="05f165ec-4e34-4b31-ac6d-bf743713a393" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Home - File Explorer' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0de0f955d158721716814c7c7be61c33.jpg" xmlns="">0ldVlvxZSSUOf_TrDcND4Nw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

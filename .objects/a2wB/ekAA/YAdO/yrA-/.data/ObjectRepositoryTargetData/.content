@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="wrIEM51lCUi6S68QcglVIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="NjZmfsOfFEKGbEelGYslMA" Reference="Wl74oFLMWU6qtdAr1TfF8A/yrA-ryHr-k67kIqk_97spQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="c7ea77d2-0e74-4561-8c66-1bf03d97d2ab" CvTextArea="1055, 165, 67, 19" CvTextArgument="Sign out" CvType="Text" DesignTimeRectangle="1029, 162, 95, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_user_info' tag='A' /&gt;" Guid="f93bfc75-3bfd-4197-8bf8-ea88d9bdf744" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="7fd095c86e4e4e70f3318d07ab1a3b22.jpg" xmlns="">0XbouiyGgP0aMT3azZ5ToYA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" DesignTimeRectangle="246, 302, 1110, 340" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aaname='sample-2' parentid='carousel' tag='IMG' /&gt;" Guid="744bf6b5-1cb9-4f52-a3fa-f95e691a67f6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="421694aec2c85cc354ecc31bac480593.jpg" xmlns="">0KPoIM8Y1r0SgAo8vPLUEOg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

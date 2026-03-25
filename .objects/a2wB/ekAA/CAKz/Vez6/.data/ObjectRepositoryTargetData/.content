@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dLcR5n2HlEO0v5noajukBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="b45c6ec6-5f91-4d76-ba50-351f92fe3b53" DesignTimeRectangle="246, 608, 350, 106" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='emailsalerts' tag='SPAN' aaname='        My alerts   ' /&gt;" Guid="b66d6df8-b2f5-4ec1-b7cf-62ecdf3fd921" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="6f0a8cfa7ea8dd7e2c1688f9eb178ed3.jpg" xmlns="">04U5dPgVfIEGOsDNTbulU9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

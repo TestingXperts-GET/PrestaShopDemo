@@ -1,0 +1,13 @@
+﻿{
+  "Name": "account_box GDPR - Pers…",
+  "Type": "Element",
+  "Id": "djsn2ORUFkumBHyEj3O32g",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/djsn2ORUFkumBHyEj3O32g",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-11T06:01:10.3653839Z",
+  "Updated": "2026-03-11T06:01:10.3653839Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

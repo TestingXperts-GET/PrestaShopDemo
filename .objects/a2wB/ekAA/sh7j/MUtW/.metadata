@@ -1,0 +1,14 @@
+﻿{
+  "Name": " 2 Addresses mode_edit…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "MUtWPhtZvkGAUOBH_QBh0Q",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/MUtWPhtZvkGAUOBH_QBh0Q",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/sh7jO1zg8UCZy8MiLEKM2A",
+  "Created": "2026-03-10T10:27:05.6414836Z",
+  "Updated": "2026-03-10T10:27:05.6414836Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

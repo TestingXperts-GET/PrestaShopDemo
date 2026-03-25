@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Subscribe(1)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7WmwVTkDo0CbRwEreoHQLg",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/7WmwVTkDo0CbRwEreoHQLg",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/2RlhxIhGekyMl1dk_hHxag",
+  "Created": "2026-03-11T09:22:32.7182683Z",
+  "Updated": "2026-03-11T09:22:32.7182683Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

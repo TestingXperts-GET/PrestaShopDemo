@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="J15oqOt0AkS9OAqw1Mb8wg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="795fa003-3007-4a4e-bce6-1da9a3fc95b4" CvElementArea="623, 385, 354, 112" CvTextArea="749, 459, 102, 17" CvTextArgument="ADDRESSES" CvType="Button" DesignTimeRectangle="626, 387, 350, 107" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='addresses-link' tag='SPAN' /&gt;" Guid="c28232e5-89fa-40a5-a069-ba936406a775" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e24ad211d6515d96e2a738e817e57575.jpg" xmlns="">00cIERUjxpUOVDw9kKMygSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
