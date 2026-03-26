@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="QbLqKjVUUEuVrEBOlWd-ng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="RKLrdMSgH0K4ootmTgP6tg" Reference="Wl74oFLMWU6qtdAr1TfF8A/PvpoKItqP0KxaR3RB49nhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="condemned-smile.demo.prestashop.com/identity" CVScreenId="c4af3da4-f875-416c-96ca-c1b7726e41cf" CvElementArea="1255, 717, 87, 41" CvTextArea="1276, 729, 44, 17" CvTextArgument="SAVE" CvType="Button" DesignTimeRectangle="1257, 719, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="ce06deec-024c-4922-bfc8-fd01efc4887d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Identity' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="9f1764c2d3dc3980fda17e595396ec8f.jpg" xmlns="">0hiMBkp9_qEaxFb_e7EjAmQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="92826961-5499-4039-8ae5-bcbe8a78e1ca" CvElementArea="1383, 801, 67, 40" CvTextArea="1397, 813, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1385, 802, 64, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="2744c872-26f1-42a0-8990-7047f946fb2d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="92479091dabf4f301d151287d5399400.jpg" xmlns="">0nIzjQUAs5EWX6kJlCVsMtg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

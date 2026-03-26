@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Cay_L1YYYUyRDx_equK3gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="vhGBYiURhkGSfUQJEOtGyA" Reference="Wl74oFLMWU6qtdAr1TfF8A/iGFfQeP7X06lRjYqw97arw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="fe3167f6-1346-48f3-8100-584ef629b834" DesignTimeRectangle="1029, 162, 95, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_user_info' tag='A' /&gt;" Guid="fcad33dc-2d4c-4a95-b45e-d7ab5d2c37bc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="25fe40f67a7f9775c5f4a303400b0cc2.jpg" xmlns="">029O9jGnaG0GVeYXc6Z5QIw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="60795274-f7ff-4ffc-b2f9-fd0ea99ea049" DesignTimeRectangle="813, 616, 306, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aaname='             Sign out           ' parentid='footer_customeraccountlinks' tag='A' /&gt;" Guid="0327dc8a-67a2-4bda-b35c-1b973a6d4dcd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b13fc67263b6696470b308c10059fd6e.jpg" xmlns="">0IgiV2jxJPEeTQiPsOhgFLQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

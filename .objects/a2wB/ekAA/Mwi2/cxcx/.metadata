@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Pay by Cash on Delivery",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "cxcxPtUHZEKIz-WMJd99ew",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/cxcxPtUHZEKIz-WMJd99ew",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/Mwi2aSIBHkSCs955jKewew",
+  "Created": "2026-03-26T08:00:53.9356697Z",
+  "Updated": "2026-03-26T08:00:53.9356697Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

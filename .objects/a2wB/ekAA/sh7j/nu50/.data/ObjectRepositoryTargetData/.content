@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="bROPXr4kUEuyncryp5Es7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="VQt3KhHAlku9HpA-aEQpkw" Reference="Wl74oFLMWU6qtdAr1TfF8A/nu50pJkTXkacsL2oEwq_mg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="96efca64-cd84-4ecf-a293-15b62df3ef8e" DesignTimeRectangle="1512, 307, 141, 60" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_cart' tag='DIV' /&gt;" Guid="b61f43ea-7051-4ada-8d7e-4e4b2135f980" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="f74d0249161305a95113bbfa643928a2.jpg" xmlns="">0cqF7tK1qr0K5vDQIqz5RRw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="8c592525-912e-4e55-8487-0679bf38ac2a" CvTextArea="1387, 163, 35, 16" CvTextArgument="Cart" CvType="Text" DesignTimeRectangle="1388, 159, 33, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_ps_shoppingcart' tag='SPAN' /&gt;" Guid="b278a786-68ec-4bb4-a4cc-a80d2271c518" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8c592525-912e-4e55-8487-0679bf38ac2a" CvElementArea="1362, 159, 24, 24" CvType="Icon" DesignTimeRectangle="1364, 161, 20, 20" FuzzySelectorArgument="&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_ps_shoppingcart' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='I' type='' class='material-icons header-block__icon' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='' /&gt;" Guid="0d1926b8-970d-49c9-91b7-14e92eac4dc9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVEhL7ZS9EYMwDIVZINswEW2WYAYq1qBkBpagYYIAx9G8XH4IRujZxjhNLu9ODWfp05OwE3xZifwQWz8FmFHkN1yur8ga81i4FAcTsjfkaKTVLItpAKAu98lekY9oRS0VgG5EKpOd0aPoZCEGCHFRTrLEUxRwzIXe/UMccMCFttxFVoCfiwG1zDNkBfg4cN0XDli6J8vzFQW0Vb/rlkfIkr3mfwYQSRbA+iaxRX5+AsueKGCzA+WN2Y4wZETNsALUDs1Xl98FDoikP8CpO2CXHFB/I1U8AAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ab3b6929b133cb6e67f5570fed67dc9a.jpg" xmlns="">0Ruh6ZKklj0q99kfHKeJxXw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

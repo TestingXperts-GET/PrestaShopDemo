@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="GLP72MhvIE2z7xrKSzSqmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="Xms-qKMNWEmutXMWEibGDw" Reference="Wl74oFLMWU6qtdAr1TfF8A/djsn2ORUFkumBHyEj3O32g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="9b60e00b-44c4-4dad-ba9c-01b9c89168cc" DesignTimeRectangle="1006, 472, 350, 106" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='psgdpr-link' tag='SPAN' /&gt;" Guid="768af3cd-6d68-4564-abb2-db0c5b25b919" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="52bbf151dd77ee52610b3dd56cf95f90.jpg" xmlns="">0DMtzED3kg0CfLIw3bAXv1A</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="35965ac3-bdaa-4307-a68a-4b4e93b06d49" DesignTimeRectangle="1137, 548, 312, 108" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl id='psgdpr_link' parentid='content' tag='A' /&gt;" Guid="56240f60-58bd-420d-938f-73764edfc0ea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="35965ac3-bdaa-4307-a68a-4b4e93b06d49" CvTextArea="1152, 616, 168, 16" CvTextArgument="GDPR - Personal data" CvType="Text" DesignTimeRectangle="1152, 615, 168, 17" ElementType="Text" Guid="2a13bef3-3bb4-4175-b775-296923d3ce7a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="93916ea5d0e50a9938d0f5b59889bbaf.jpg" xmlns="">0QKZoBUZPWkaJ68OJ-dBm-w</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

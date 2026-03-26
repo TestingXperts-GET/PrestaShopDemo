@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="wPMmQjDORUOkpdLS014UXQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="Df6zCKXYgEK5_wS2QIlrOw" Reference="Wl74oFLMWU6qtdAr1TfF8A/WtSZpdRu4kaxXGOsdgDdIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="0ada135a-7383-429f-b244-86118217c739" CvElementArea="1255, 795, 87, 41" CvTextArea="1275, 807, 45, 17" CvTextArgument="SAVE" CvType="Button" DesignTimeRectangle="1257, 797, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="c8b038b2-5af1-4f76-8f0e-7094b9f160f6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="38053cb4652cf0c8171eb6111b4418bc.jpg" xmlns="">0iODXEZyy5Uq0w_cj_5TpGQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="201d0226-010a-4951-80a3-7f37c3a6e2aa" CvElementArea="1384, 719, 67, 40" CvTextArea="1397, 731, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1385, 720, 64, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="a743c962-6ae5-4fdd-98e9-86d5f7d75e32" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-10" Y="4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="492aadde38915db1ff14c430acebd042.jpg" xmlns="">0e6kx-CmTg0GYE5Ol74llew</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

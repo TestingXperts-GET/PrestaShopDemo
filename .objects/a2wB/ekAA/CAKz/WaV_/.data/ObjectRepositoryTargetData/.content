@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="0t4QLHufukCrQ3BZ8FTknA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="gzNeTPk5N0qYjqU5_N9EYA" Reference="Wl74oFLMWU6qtdAr1TfF8A/WaV_O44aBEK5HvpHm7VA5g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3d655cc8-9df0-4db7-83a6-77c10c29b9ff" DesignTimeRectangle="262, 351, 1078, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='H6' aaname='Credit slips you have received after canceled orders.' /&gt;" Guid="1bad0d59-2d28-4db4-b57d-7280a0b48e01" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="30d06af795dbf4dbfbc48adc5f0fb583.jpg" xmlns="">0fTqiW9bAf0WGD6xjH5QjqA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="9ac310c4-ae54-43d7-afe6-59137e5d863c" CvTextArea="481, 527, 400, 17" CvTextArgument="Credit slips you have received after canceled orders." CvType="Text" DesignTimeRectangle="483, 524, 966, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl id='order_credit_slips_description' tag='P' /&gt;" Guid="ea75a806-33a7-4d69-8a88-5ce862864cbc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1fa733e4962f212bd2c21611b6609fb3.jpg" xmlns="">02UHwd16hH0y-jZzHYR4Tdw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

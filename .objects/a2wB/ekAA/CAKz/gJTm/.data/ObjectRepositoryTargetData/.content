@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EKmeHLcoE0uIZq7WlqvlZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="9278706a-c151-4964-9f45-d288b1341327" CvTextArea="1236, 163, 76, 16" CvTextArgument="Test User" CvType="Text" DesignTimeRectangle="1202, 151, 146, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='userMenuButton' tag='BUTTON' type='' class='dropdown-toggle header-block__action-btn border-0 bg-transparent show' aaname='                                   T.U.                                   Test User                    ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='&amp;#xA;Test User' /&gt;" Guid="a136dbdb-795d-4b6e-9672-c8cff36b70de" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9278706a-c151-4964-9f45-d288b1341327" DesignTimeRectangle="1238, 159, 72, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' type='' check:innerText='Test User' /&gt;" Guid="aead0487-780d-4fd4-b68e-1149dfbf1247" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="18cc83d16d896f650ed264390f3a48e4.jpg" xmlns="">0KZPw8XeSJka11zLZd5DhtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

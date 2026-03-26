@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Hq0ih_5Y8E2CvUtWRrbo9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="-RouNM9-DE6dRqwju-nR-A" Reference="Wl74oFLMWU6qtdAr1TfF8A/ZWgWyB3JhEuIWNDefgFfzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="b2ee5dd9-9475-4f06-bd41-71bdb7b68b2f" DesignTimeRectangle="1175, 162, 52, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_user_info' tag='SPAN' /&gt;" Guid="b6cbf32b-9b67-43d5-b46c-c421ca76947e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.PointOffset>
-        <PointOffset X="6" Y="-2" />
-      </TargetAnchorable.PointOffset>
-      <imageRef attrName="InformativeScreenshot" originalValue="f0b5d9150595a28faf4acd6c976c318f.jpg" xmlns="">0fQQWPSEjpkG0UUM-qKNtzA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="da1b1eb7-93c4-4c6b-a6f1-72055ac7eb3b" CvTextArea="1283, 111, 54, 19" CvTextArgument="Sign in" CvType="Text" DesignTimeRectangle="1249, 99, 99, 40" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aria-label='Sign in' tag='A' /&gt;" Guid="51c0fb86-fbed-4bc8-b3a2-d0a7f1db7c1d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ce2abb4d7116d0c30700b9c6b46c10fe.jpg" xmlns="">00WZUBcjfUUa7jYsGT205Xw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

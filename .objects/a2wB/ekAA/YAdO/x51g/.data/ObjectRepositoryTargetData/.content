@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="qtikepbznEym7RmmLzKa3g" Reference="Wl74oFLMWU6qtdAr1TfF8A/x51gVBT-9U-SKQ32lhI6cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="kBhghyA3S063X8tkS04HxQ" Reference="Wl74oFLMWU6qtdAr1TfF8A/x51gVBT-9U-SKQ32lhI6cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="8081882c-6c97-4495-9608-d40b50f6b37d" DesignTimeRectangle="1029, 262, 95, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_user_info' tag='A' visibleinnertext=' Sign out ' /&gt;" Guid="2bebf963-6901-4226-b1c6-a56cc386e58e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="b77e6772b44889538d540fbf3b0913cd.jpg" xmlns="">0M1jI0ddiV0SfRon1xlmzGg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="659ffbd1-e00f-4114-bef2-c037706e43a2" CvTextArea="151, 264, 103, 32" CvTextArgument="my store" CvType="Text" DesignTimeRectangle="141, 248, 124, 64" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='header' tag='DIV' /&gt;" Guid="9760e470-55b9-4ca5-9073-d704efc8662b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ec134b715cbc4f4a4061310f726caad7.jpg" xmlns="">0i9-3P6cPhEOPk6whfQ-GfA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

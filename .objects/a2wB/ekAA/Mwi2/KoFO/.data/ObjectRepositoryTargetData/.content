@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="OlZObsCQ6UKmllw_lKfZnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="5A2nQ82wqkG9JF1NfsKcIg" Reference="Wl74oFLMWU6qtdAr1TfF8A/KoFO5uCRK0S80BWyBm6etw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="e9a5dad8-37f0-49be-9506-bf595d5220d7" DesignTimeRectangle="809, 589, 127, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl name='confirmDeliveryOption' tag='BUTTON' type='submit' /&gt;" Guid="a7b66979-ab83-4c38-b774-437f3cb125d1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="ad9bebcd840dcabe1f1f9cb06678a4d2.jpg" xmlns="">0WCEAeXfKP0mdpaQSxZ6lkg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="e9a5dad8-37f0-49be-9506-bf595d5220d7" DesignTimeRectangle="797, 706, 212, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl name='confirmDeliveryOption' tag='BUTTON' type='submit' /&gt;" Guid="a7b66979-ab83-4c38-b774-437f3cb125d1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f4716bc08b8d44ea0a03c0a595aa4f0f.jpg" xmlns="">0TB-zxySdkkiTFDrS1pqwXg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

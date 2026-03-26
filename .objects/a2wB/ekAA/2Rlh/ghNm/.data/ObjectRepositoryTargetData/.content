@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="fX5pL3m9R0W3CYCLd77Ggg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="sLTy2fIMQ0qsya8ZWXvIBA" Reference="Wl74oFLMWU6qtdAr1TfF8A/ghNm-N37PUqSPwGdPur70w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3fce0c47-e381-4982-98d0-aa5c31a6c255" CvElementArea="749, 408, 295, 42" CvType="InputBox" DesignTimeRectangle="749, 460, 295, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;" Guid="7deffb63-ab11-4ca2-ab63-3540815e23e8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="07dd11d69a205891fa754b07a5d05d31.jpg" xmlns="">0nZW7p5eXE0ahdAFQAe5WBg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3fce0c47-e381-4982-98d0-aa5c31a6c255" DesignTimeRectangle="703, 613, 525, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;" Guid="7deffb63-ab11-4ca2-ab63-3540815e23e8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c3accdabbbb9b86a50aa149d9ffdfbd7.jpg" xmlns="">0yCn3aBCmbE-LiuFYjANvDA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>

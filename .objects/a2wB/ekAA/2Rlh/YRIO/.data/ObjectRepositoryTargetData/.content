@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="9Kmbm7-f30e84KkGklDYkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="s-81KdbzgkGr3F4KlBA_7Q" Reference="Wl74oFLMWU6qtdAr1TfF8A/YRIOXBjmoUWFgBwwUPH5tA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="5e4bed8a-1ac6-4df2-b571-e736bb0a4c52" CvTextArea="244, 264, 88, 16" CvTextArgument="Contact us" CvType="Text" DesignTimeRectangle="246, 261, 85, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='A' /&gt;" Guid="ecbcf2cb-71b9-4ba2-b568-c6dd321a5d09" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="edcbb8b31afeb9da03dc21e89950dd56.jpg" xmlns="">0ajwYa3jP5kCJoiU0n98Wgw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="e8e8deb5-6ff2-496b-b3d2-880ec3f2c1ee" CvTextArea="151, 163, 84, 15" CvTextArgument="Contact us" CvType="Text" DesignTimeRectangle="153, 161, 81, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='_desktop_ps_contactinfo' tag='A' /&gt;" Guid="3e3b4d00-e8a9-41ca-ad5e-bcf2d5bba6c0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6b9093a168ad96cb72c3a6b4cc8be66b.jpg" xmlns="">0LmVKYDgQ5Eq5-YZoBT8YuQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

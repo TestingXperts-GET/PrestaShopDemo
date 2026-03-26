@@ -156,7 +156,7 @@
       </ui:ReadRange.DataTable>
       <ui:ReadRange.WorkbookPath>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">ExcelPath</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">ExcelPath</CSharpValue>
         </InArgument>
       </ui:ReadRange.WorkbookPath>
     </ui:ReadRange>
@@ -223,7 +223,7 @@
                             <OutArgument x:TypeArguments="ui:UiElement" />
                           </uix:SearchedElement.OutUiElement>
                           <uix:SearchedElement.Target>
-                            <uix:TargetAnchorable BrowserURL="demo.prestashop.com" ContentHash="jNi4XsnVJUSBf39JZVvqBQ" DesignTimeRectangle="401, 408, 333, 56" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl id='block-newsletter-label' tag='P' /&gt;" Guid="3382e804-8153-48de-8e76-90c0d5f6040d" InformativeScreenshot="b81f92fdeece383d3cfdf9211deff028.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/zjCw1WqLokKn8akUCpUw5A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            <uix:TargetAnchorable BrowserURL="demo.prestashop.com" ContentHash="D2k4JpWERkieIF9sMahaeA" DesignTimeRectangle="8, 589, 1585, 136" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl id='emailsubscription_anchor_displayFooterBefore' tag='SECTION' /&gt;" Guid="bda1ce20-883a-40be-98d3-6a417cfaac29" InformativeScreenshot="ca8a8b9980bc3cbbd83291c3b6f17b31.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/zjCw1WqLokKn8akUCpUw5A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:SearchedElement.Target>
                           <uix:SearchedElement.Timeout>
                             <InArgument x:TypeArguments="x:Double" />
@@ -233,7 +233,7 @@
                     </uix:NMouseScroll>
                     <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="3fce0c47-e381-4982-98d0-aa5c31a6c255" ContentHash="fX5pL3m9R0W3CYCLd77Ggg" CvElementArea="749, 408, 295, 42" CvType="InputBox" DesignTimeRectangle="749, 460, 295, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;" Guid="7deffb63-ab11-4ca2-ab63-3540815e23e8" InformativeScreenshot="07dd11d69a205891fa754b07a5d05d31.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/ghNm-N37PUqSPwGdPur70w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="3fce0c47-e381-4982-98d0-aa5c31a6c255" ContentHash="sLTy2fIMQ0qsya8ZWXvIBA" DesignTimeRectangle="703, 613, 525, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;" Guid="7deffb63-ab11-4ca2-ab63-3540815e23e8" InformativeScreenshot="c3accdabbbb9b86a50aa149d9ffdfbd7.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/ghNm-N37PUqSPwGdPur70w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NTypeInto.Target>
                       <uix:NTypeInto.Text>
                         <InArgument x:TypeArguments="x:String">
@@ -265,7 +265,7 @@
                     </ar:infoStep>
                     <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Subscribe'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
                       <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="d572ba24-29e2-480e-b0c1-c3609ff52e68" ContentHash="RL7fz9J750iEJftZCT8h1Q" CvElementArea="1052, 537, 133, 42" CvTextArea="1071, 549, 95, 17" CvTextArgument="SUBSCRIBE" CvType="Button" DesignTimeRectangle="1052, 537, 133, 42" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="6a9a6c81-99db-415b-b7e2-ddee8b33ae3e" InformativeScreenshot="0e80e78915600b714bc1218603a7ec94.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/Ada8jAVyT0GHsb8hqakSZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="d572ba24-29e2-480e-b0c1-c3609ff52e68" ContentHash="oSgqlO_zKUCeKs2gbmmMIg" DesignTimeRectangle="1236, 613, 103, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="6a9a6c81-99db-415b-b7e2-ddee8b33ae3e" InformativeScreenshot="92c70144e3e19f229443fab44c4100b6.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/Ada8jAVyT0GHsb8hqakSZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
                     <uix:NCheckState DisplayName="Check App State 'You have successfully s…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1224" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
@@ -312,7 +312,7 @@
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
-                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="d572ba24-29e2-480e-b0c1-c3609ff52e68" ContentHash="SD-O4v5Ux0qixVLdsRlQ-w" DesignTimeRectangle="749, 477, 436, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;main&amp;gt;footer&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;p' parentid='blockEmailSubscription_displayFooterBefore' tag='P' /&gt;" Guid="fb40b309-219e-4337-91d4-5b64c1c1276a" InformativeScreenshot="8068b619796899e8651b7007cdea2c7d.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/WaAIcVaAWkuIcBiVXSbtXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="fbe6dd11-f7f2-4c9c-9e99-307cdb87cdbb" ContentHash="iEoG-N9GBUqOhGMH2UbGgQ" CvTextArea="718, 443, 397, 16" CvTextArgument="You have successfully subscribed to this newsletter." CvType="Text" DesignTimeRectangle="703, 422, 636, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aria-role='alert' tag='DIV' /&gt;" Guid="6ee1443b-7ba6-4f12-8ec2-cfbbc8d0f847" InformativeScreenshot="473c994144f838d47004b23a8d8de42f.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/WaAIcVaAWkuIcBiVXSbtXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NCheckState.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -346,7 +346,7 @@
                   </Sequence>
                 </uix:NCheckState.IfNotExists>
                 <uix:NCheckState.Target>
-                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="2d388db2-626b-4583-a010-2ef93cb05e84" ContentHash="rbCaGpdXNUSxlxYAU2FCdA" DesignTimeRectangle="1052, 549, 133, 42" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="a3d9371c-eaf5-44af-a0d5-9a5e721eb7d1" InformativeScreenshot="95682d6827c92343045ff01d68b28b5a.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/7WmwVTkDo0CbRwEreoHQLg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="2d388db2-626b-4583-a010-2ef93cb05e84" ContentHash="xXXjgBITmUSK-SH4f7nCPQ" DesignTimeRectangle="1236, 313, 103, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="a3d9371c-eaf5-44af-a0d5-9a5e721eb7d1" InformativeScreenshot="86f5c5ad3923877aa9bac62418db27b3.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/7WmwVTkDo0CbRwEreoHQLg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NCheckState.Target>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">

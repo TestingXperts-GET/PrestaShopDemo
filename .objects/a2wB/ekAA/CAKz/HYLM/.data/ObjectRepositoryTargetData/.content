@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="w8tADx_SdEqyVgb-5SSU6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="-9y47ZVi6EyoQjAyyrgPhA" Reference="Wl74oFLMWU6qtdAr1TfF8A/HYLMMo2HdE-u7K6CrXj_8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="98939a6b-e068-4811-bc43-71580024eb61" DesignTimeRectangle="246, 472, 350, 106" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='order-slips-link' tag='SPAN' /&gt;" Guid="6cf3ea70-44dd-410b-be40-7e6378a30a8c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="9c8882e8931c95f099a7640a1d65498f.jpg" xmlns="">0BkaPa4KC2kmY37M4r7Su0Q</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="2fe4a019-c4b0-4acc-9c12-4b3f86e2f6c4" DesignTimeRectangle="483, 648, 311, 108" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl id='order_slips_main_link' tag='A' /&gt;" Guid="04e62065-1f12-489a-8915-36a6a07f8f11" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2fe4a019-c4b0-4acc-9c12-4b3f86e2f6c4" CvTextArea="497, 715, 90, 20" CvTextArgument="Credit slips" CvType="Text" DesignTimeRectangle="497, 715, 90, 20" ElementType="Text" Guid="1cd45dad-f249-4c50-982c-16b5c160333e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad12f9debcb54b89560aebe8fb4a464e.jpg" xmlns="">0-KrJe59Ebk-p2EBl6LR6Iw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

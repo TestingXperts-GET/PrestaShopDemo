@@ -1,0 +1,14 @@
+﻿{
+  "Name": "I agree to the terms of…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "WQnKVavv10SuP2GzUOoU0g",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/WQnKVavv10SuP2GzUOoU0g",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/Mwi2aSIBHkSCs955jKewew",
+  "Created": "2026-03-26T08:01:42.7419569Z",
+  "Updated": "2026-03-26T08:01:42.7419569Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

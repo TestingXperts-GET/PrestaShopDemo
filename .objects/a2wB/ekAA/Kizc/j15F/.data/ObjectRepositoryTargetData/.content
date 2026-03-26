@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="UdRD0HgYg0qZSFU7vLEYJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="dSxJUD3lFU6-tYjB_Vu3Vw" Reference="Wl74oFLMWU6qtdAr1TfF8A/j15FJah900-2HrX4sTpORw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="fc599584-7aa1-42ec-bfa0-a2acdcc9ee15" DesignTimeRectangle="929, 247, 77, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl id='_desktop_language_selector' tag='DIV' /&gt;" Guid="ea01597a-fa99-41b7-a7a3-69cac78047b9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="c7fd1de44ac032e7c9b7fead143b09df.jpg" xmlns="">0AouWLUhZuU-Njlb_wVcTQw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="71049ae5-b639-40fb-ba13-dc6f55328de0" CvElementArea="1167, 160, 22, 20" CvTextArea="1022, 162, 56, 20" CvTextArgument="English" CvType="ArrowButton" DesignTimeRectangle="1011, 153, 187, 36" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='SELECT' /&gt;" Guid="c7ad637c-8243-4eaf-9c9b-cd8ff550e308" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0a919dadb80b62dde86eeef4489cf890.jpg" xmlns="">0JdJ_TNDC90KRT83Bqy6wZg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Billing" this:Billing.AddressRow="0" this:Billing.CityRow="0" this:Billing.ZipRow="0" this:Billing.StateRow="0" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ar="clr-namespace:atuipath_utilities.Report;assembly=atuipath_utilities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Billing" this:Billing.ReportID="0" this:Billing.AddressRow="0" this:Billing.CityRow="0" this:Billing.ZipRow="0" this:Billing.StateRow="0" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ar="clr-namespace:atuipath_utilities.Report;assembly=atuipath_utilities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="SuiteID" Type="InArgument(x:String)" />
     <x:Property Name="ReportID" Type="InArgument(x:Int32)" />
@@ -12,9 +12,6 @@
   <this:Billing.SuiteID>
     <InArgument x:TypeArguments="x:String" />
   </this:Billing.SuiteID>
-  <this:Billing.ReportID>
-    <InArgument x:TypeArguments="x:Int32" />
-  </this:Billing.ReportID>
   <this:Billing.TestID>
     <InArgument x:TypeArguments="x:String" />
   </this:Billing.TestID>
@@ -68,6 +65,8 @@
       <x:String>ReporterForUiPath.Activities</x:String>
       <x:String>System.Runtime.InteropServices</x:String>
       <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -145,20 +144,21 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Billing" sap:VirtualizedContainerService.HintSize="939,3097" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Billing" sap:VirtualizedContainerService.HintSize="939,3485" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="State" />
       <Variable x:TypeArguments="x:String" Name="AddressData" />
       <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
       <Variable x:TypeArguments="x:String" Name="City" />
       <Variable x:TypeArguments="x:String" Name="Zip" />
+      <Variable x:TypeArguments="x:String" Name="Country" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="522,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1">
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="556,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1">
       <ui:ReadRange.DataTable>
         <OutArgument x:TypeArguments="sd:DataTable">
           <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">ExcelData</CSharpReference>
@@ -166,13 +166,13 @@
       </ui:ReadRange.DataTable>
       <ui:ReadRange.WorkbookPath>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">ExcelPath</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">ExcelPath</CSharpValue>
         </InArgument>
       </ui:ReadRange.WorkbookPath>
     </ui:ReadRange>
-    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="522,242" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="556,273" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
-        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
             <ui:AssignOperation.To>
               <OutArgument x:TypeArguments="x:String">
@@ -217,26 +217,38 @@
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
               <InArgument x:TypeArguments="x:String">
-                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">ExcelData.Rows[StateRow]["State"].ToString()</CSharpValue>
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38">ExcelData.Rows[StateRow]["States"].ToString()</CSharpValue>
+              </InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">Country</CSharpReference>
+              </OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">ExcelData.Rows[StateRow]["Country"].ToString()</CSharpValue>
               </InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <Sequence sap:VirtualizedContainerService.HintSize="522,2712" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="556,3069" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome PrestaShop Live Demo(8)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,2629" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome PrestaShop Live Demo(8)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,2986" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,2435" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,2792" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="Address" />
               </Sequence.Variables>
@@ -245,12 +257,12 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
                 <uix:NTypeInto.Target>
-                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="8522ffca-1cc2-4cd7-aeab-68da6c6b3021" ContentHash="aN29vRCzXUS-qvKWJkiqeg" CvElementArea="461, 616, 304, 41" CvType="InputBox" DesignTimeRectangle="463, 617, 300, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-address1' tag='INPUT' type='text' class='form-control' aaname='               Address           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="45dd137b-1ddf-404e-9aaf-68c47113edb6" InformativeScreenshot="257fd5d8efc070bbf040dfd745943d2a.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/0NsO7fwa5U6IVdHZtFsEFA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="c55785a9-eb3e-4d73-bfc6-d442cc7ce2d3" ContentHash="U-6VozfkWkCQ2fzsN7nbiA" DesignTimeRectangle="153, 550, 856, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='text' name='address1' /&gt;" Guid="973d124c-8cbb-4ef9-84d4-b6014aef9213" InformativeScreenshot="6e8d8f163bf03267af7d151d5609b576.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/0NsO7fwa5U6IVdHZtFsEFA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="8522ffca-1cc2-4cd7-aeab-68da6c6b3021" DesignTimeRectangle="283, 617, 165, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               Address           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Address' /&gt;" Guid="01b403e8-3161-429b-bd30-02c7bc3e9b8a" SearchSteps="FuzzySelector" />
+                        <uix:Target CVScreenId="c55785a9-eb3e-4d73-bfc6-d442cc7ce2d3" CvTextArea="150, 522, 80, 16" CvTextArgument="Address *" CvType="Text" DesignTimeRectangle="153, 518, 77, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='                   Address               ' tag='LABEL' type='' class='form-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Address' /&gt;" Guid="d80f53be-4cc7-4db5-a037-6270dfc01c04" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
@@ -271,108 +283,12 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'City'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Zip/Postal Code'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
                 <uix:NTypeInto.Target>
-                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="aa4c2de0-ec10-4081-b3a5-af0285865bbc" ContentHash="po07HHzLV0SsJmE1sPsWoQ" CvElementArea="461, 296, 304, 41" CvType="InputBox" DesignTimeRectangle="463, 297, 300, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-city' tag='INPUT' type='text' class='form-control' aaname='               City           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="55a2d88c-1bb2-44aa-a05e-c3437855f6d0" InformativeScreenshot="564f0a1bb18eb1319a913b0b650eb047.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/t_yE_JLG3ESOJbFwYVUR_A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="6852b421-5381-455c-9ccb-bc1f3b32a626" ContentHash="KGNvuA-n40--IIs3W7DGnQ" CvElementArea="461, 502, 305, 43" CvType="InputBox" DesignTimeRectangle="153, 506, 856, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-postcode' tag='INPUT' type='text' class='form-control' aaname='               Zip/Postal Code           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8415e7e3-ef60-4c9a-87a2-465515218cb6" InformativeScreenshot="1548b5613d760d66fc71d7e82be01666.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/1PcJnREONUObfYJUqQe70w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="aa4c2de0-ec10-4081-b3a5-af0285865bbc" CvTextArea="296, 309, 32, 18" CvTextArgument="City" CvType="Text" DesignTimeRectangle="283, 297, 165, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               City           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='City' /&gt;" Guid="c52bad92-ae88-4076-9300-e04f27cb6993" SearchSteps="FuzzySelector, CV" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NTypeInto.Target>
-                <uix:NTypeInto.Text>
-                  <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">City</CSharpValue>
-                  </InArgument>
-                </uix:NTypeInto.Text>
-                <uix:NTypeInto.VerifyOptions>
-                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionTypeIntoOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                  </uix:VerifyExecutionTypeIntoOptions>
-                </uix:NTypeInto.VerifyOptions>
-              </uix:NTypeInto>
-              <uix:NSelectItem DisplayName="Select Item 'State'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,199" sap2010:WorkflowViewState.IdRef="NSelectItem_1" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
-                <uix:NSelectItem.Item>
-                  <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">State</CSharpValue>
-                  </InArgument>
-                </uix:NSelectItem.Item>
-                <uix:NSelectItem.Items>
-                  <scg:List x:TypeArguments="x:String" Capacity="50">
-                    <x:String>Please choose</x:String>
-                    <x:String>AA</x:String>
-                    <x:String>AE</x:String>
-                    <x:String>Alabama</x:String>
-                    <x:String>Alaska</x:String>
-                    <x:String>AP</x:String>
-                    <x:String>Arizona</x:String>
-                    <x:String>Arkansas</x:String>
-                    <x:String>California</x:String>
-                    <x:String>Colorado</x:String>
-                    <x:String>Connecticut</x:String>
-                    <x:String>Delaware</x:String>
-                    <x:String>District of Columbia</x:String>
-                    <x:String>Florida</x:String>
-                    <x:String>Georgia</x:String>
-                    <x:String>Hawaii</x:String>
-                    <x:String>Idaho</x:String>
-                    <x:String>Illinois</x:String>
-                    <x:String>Indiana</x:String>
-                    <x:String>Iowa</x:String>
-                    <x:String>Kansas</x:String>
-                    <x:String>Kentucky</x:String>
-                    <x:String>Louisiana</x:String>
-                    <x:String>Maine</x:String>
-                    <x:String>Maryland</x:String>
-                    <x:String>Massachusetts</x:String>
-                    <x:String>Michigan</x:String>
-                    <x:String>Minnesota</x:String>
-                    <x:String>Mississippi</x:String>
-                    <x:String>Missouri</x:String>
-                    <x:String>Montana</x:String>
-                    <x:String>Nebraska</x:String>
-                    <x:String>Nevada</x:String>
-                    <x:String>New Hampshire</x:String>
-                    <x:String>New Jersey</x:String>
-                    <x:String>New Mexico</x:String>
-                    <x:String>New York</x:String>
-                    <x:String>North Carolina</x:String>
-                    <x:String>North Dakota</x:String>
-                    <x:String>Ohio</x:String>
-                    <x:String>Oklahoma</x:String>
-                    <x:String>Oregon</x:String>
-                    <x:String>Pennsylvania</x:String>
-                    <x:String>Puerto Rico</x:String>
-                    <x:String>Rhode Island</x:String>
-                    <x:String>South Carolina</x:String>
-                    <x:String>South Dakota</x:String>
-                    <x:String>Tennessee</x:String>
-                    <x:String>Texas</x:String>
-                    <x:String>US Virgin Islands</x:String>
-                  </scg:List>
-                </uix:NSelectItem.Items>
-                <uix:NSelectItem.Target>
-                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="88fbabc2-0b61-4d0b-bb8d-68b143e7a7b0" ContentHash="GWjt-irGsESOjvDXcekJMg" CvElementArea="459, 348, 306, 43" CvType="InputBox" DesignTimeRectangle="463, 351, 300, 38" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-id_state' tag='SELECT' type='' class='form-control form-control-select' aaname='               State           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8847b75b-f0e5-4af8-8e3a-e2e18b55aa9e" InformativeScreenshot="c44eb728a23c1a9f7c310ff25839e1a2.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/PTOKkQprEUO-Os_HHp9qBg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="88fbabc2-0b61-4d0b-bb8d-68b143e7a7b0" CvTextArea="296, 363, 42, 15" CvTextArgument="State" CvType="Text" DesignTimeRectangle="283, 351, 165, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               State           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='State' /&gt;" Guid="75fc967a-0198-4dba-8258-7ac602072a49" SearchSteps="FuzzySelector, CV" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NSelectItem.Target>
-              </uix:NSelectItem>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Zip/Postal Code'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
-                <uix:NTypeInto.Target>
-                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="6852b421-5381-455c-9ccb-bc1f3b32a626" ContentHash="MKYNkJLCsk2dFfY7eLTxFw" CvElementArea="461, 502, 305, 43" CvType="InputBox" DesignTimeRectangle="463, 505, 300, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-postcode' tag='INPUT' type='text' class='form-control' aaname='               Zip/Postal Code           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8415e7e3-ef60-4c9a-87a2-465515218cb6" InformativeScreenshot="547843af445d0e19c42401089d92d0b5.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/1PcJnREONUObfYJUqQe70w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="6852b421-5381-455c-9ccb-bc1f3b32a626" CvTextArea="295, 517, 118, 17" CvTextArgument="Zip/Postal Code" CvType="Text" DesignTimeRectangle="283, 505, 165, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               Zip/Postal Code           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zip/Postal Code' /&gt;" Guid="a16033c1-679d-4e2f-95cd-01c1ceba25dc" SearchSteps="FuzzySelector, CV" />
+                        <uix:Target CVScreenId="6852b421-5381-455c-9ccb-bc1f3b32a626" CvTextArea="295, 517, 118, 17" CvTextArgument="Zip/Postal Code" CvType="Text" DesignTimeRectangle="153, 474, 136, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               Zip/Postal Code           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zip/Postal Code' /&gt;" Guid="a16033c1-679d-4e2f-95cd-01c1ceba25dc" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
@@ -393,12 +309,142 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'City'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="aa4c2de0-ec10-4081-b3a5-af0285865bbc" ContentHash="zQlha2C9hkyvn9vsYYJ_dQ" CvElementArea="461, 296, 304, 41" CvType="InputBox" DesignTimeRectangle="153, 592, 856, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-city' tag='INPUT' type='text' class='form-control' aaname='               City           ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="55a2d88c-1bb2-44aa-a05e-c3437855f6d0" InformativeScreenshot="1ecf53c09579ea5a3cb7a0bc12c85529.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/t_yE_JLG3ESOJbFwYVUR_A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="aa4c2de0-ec10-4081-b3a5-af0285865bbc" CvTextArea="296, 309, 32, 18" CvTextArgument="City" CvType="Text" DesignTimeRectangle="153, 560, 44, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='               City           ' tag='LABEL' type='' class='col-md-3 form-control-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='City' /&gt;" Guid="c52bad92-ae88-4076-9300-e04f27cb6993" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">City</CSharpValue>
+                  </InArgument>
+                </uix:NTypeInto.Text>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NSelectItem DisplayName="Select Item 'Country'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,199" sap2010:WorkflowViewState.IdRef="NSelectItem_2" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
+                <uix:NSelectItem.Item>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_37">Country</CSharpValue>
+                  </InArgument>
+                </uix:NSelectItem.Item>
+                <uix:NSelectItem.Items>
+                  <scg:List x:TypeArguments="x:String" Capacity="3">
+                    <x:String>-- please choose --</x:String>
+                    <x:String>France</x:String>
+                    <x:String>United States</x:String>
+                  </scg:List>
+                </uix:NSelectItem.Items>
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="68a183c6-7cc4-4e4c-a06a-60ff166fc3cf" ContentHash="zyB56eGUl0uKAdQVrQQ_DQ" CvElementArea="152, 655, 856, 40" CvType="InputBox" DesignTimeRectangle="153, 656, 856, 38" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-id_country' tag='SELECT' type='' class='form-select js-country' aaname='                   Country               ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7120c99f-c336-4e5e-9713-c6ac27a14df2" InformativeScreenshot="1dee7f5e29f3fbc37fcc3a4ac0465d6b.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/tm6uo8vbt0GVucDS3OmLpQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="68a183c6-7cc4-4e4c-a06a-60ff166fc3cf" CvTextArea="151, 628, 77, 19" CvTextArgument="Country *" CvType="Text" DesignTimeRectangle="153, 624, 75, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='                   Country               ' tag='LABEL' type='' class='form-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Country' /&gt;" Guid="5d958675-e76d-4681-bf9c-4ae36fb6512e" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,357" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NSelectItem DisplayName="Select Item 'State'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_1" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
+                      <uix:NSelectItem.Item>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">State</CSharpValue>
+                        </InArgument>
+                      </uix:NSelectItem.Item>
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="50">
+                          <x:String>Please choose</x:String>
+                          <x:String>AA</x:String>
+                          <x:String>AE</x:String>
+                          <x:String>Alabama</x:String>
+                          <x:String>Alaska</x:String>
+                          <x:String>AP</x:String>
+                          <x:String>Arizona</x:String>
+                          <x:String>Arkansas</x:String>
+                          <x:String>California</x:String>
+                          <x:String>Colorado</x:String>
+                          <x:String>Connecticut</x:String>
+                          <x:String>Delaware</x:String>
+                          <x:String>District of Columbia</x:String>
+                          <x:String>Florida</x:String>
+                          <x:String>Georgia</x:String>
+                          <x:String>Hawaii</x:String>
+                          <x:String>Idaho</x:String>
+                          <x:String>Illinois</x:String>
+                          <x:String>Indiana</x:String>
+                          <x:String>Iowa</x:String>
+                          <x:String>Kansas</x:String>
+                          <x:String>Kentucky</x:String>
+                          <x:String>Louisiana</x:String>
+                          <x:String>Maine</x:String>
+                          <x:String>Maryland</x:String>
+                          <x:String>Massachusetts</x:String>
+                          <x:String>Michigan</x:String>
+                          <x:String>Minnesota</x:String>
+                          <x:String>Mississippi</x:String>
+                          <x:String>Missouri</x:String>
+                          <x:String>Montana</x:String>
+                          <x:String>Nebraska</x:String>
+                          <x:String>Nevada</x:String>
+                          <x:String>New Hampshire</x:String>
+                          <x:String>New Jersey</x:String>
+                          <x:String>New Mexico</x:String>
+                          <x:String>New York</x:String>
+                          <x:String>North Carolina</x:String>
+                          <x:String>North Dakota</x:String>
+                          <x:String>Ohio</x:String>
+                          <x:String>Oklahoma</x:String>
+                          <x:String>Oregon</x:String>
+                          <x:String>Pennsylvania</x:String>
+                          <x:String>Puerto Rico</x:String>
+                          <x:String>Rhode Island</x:String>
+                          <x:String>South Carolina</x:String>
+                          <x:String>South Dakota</x:String>
+                          <x:String>Tennessee</x:String>
+                          <x:String>Texas</x:String>
+                          <x:String>US Virgin Islands</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="b76b94c4-4213-4a32-9388-c3642fe431cf" ContentHash="HYV3fbf6Xk6-6XY8fTa3zw" CvElementArea="151, 677, 858, 39" CvType="InputBox" DesignTimeRectangle="153, 678, 856, 38" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='SELECT' type='' /&gt;" Guid="8c932715-2aa9-4fbd-9905-4d493f58aa55" InformativeScreenshot="9281f462066e73578246c346405e38d9.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/PTOKkQprEUO-Os_HHp9qBg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="b76b94c4-4213-4a32-9388-c3642fe431cf" CvTextArea="151, 650, 77, 19" CvTextArgument="Country *" CvType="Text" DesignTimeRectangle="153, 646, 75, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='                   Country               ' tag='LABEL' type='' class='form-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Country' /&gt;" Guid="64edbeba-b796-4f22-afc4-47ed1e9f180c" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                    </uix:NSelectItem>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="d04faf33-211a-4ea8-8a3e-a0f3d975f068" ContentHash="IBqZLi7VdUm6L8SXdmyLoQ" CvElementArea="800, 658, 130, 41" CvTextArea="821, 670, 88, 17" CvTextArgument="CONTINUE" CvType="Button" DesignTimeRectangle="802, 660, 127, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl name='confirm-addresses' tag='BUTTON' type='submit' /&gt;" Guid="0a982fb3-252f-4a5a-908a-53b5635b5bb5" InformativeScreenshot="37819ada516f06b5892e9aa8c317f168.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/MRhoOBP45ke5ZEdsudTbmg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="5c8f6fc8-0aec-41b2-a968-c7d75ca65325" ContentHash="cCCiWDBiU0-6qqURrew-8Q" CvElementArea="884, 645, 126, 42" CvTextArea="898, 657, 71, 17" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="886, 647, 123, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl name='confirm-addresses' tag='BUTTON' type='submit' /&gt;" Guid="c81a93d2-4501-460a-994d-4fbc06671571" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH8AAAAqCAYAAACa/oRXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASESURBVHhe7ZxNa9tIGMf7BXrZz+FvkE+w4FuPvflq2ItvORnfmlPrXhxYKKKwFEEogbIgloJZFoJYyJqAqQKlOFsCpgQaYyzJkkb/8sxobL3YGyWRvYlnHvhDpHlmRprfMy8axXoCbcrak/wJbepYBv4//zL8/NLFT79M8bSptSsinsSV+KZtAZ8SNPTdFvFNB8ACPkVG3llr90ScC/B1r1dDxLkAP++ktbvS8BWWhq+wNHyFpeErLA1fYWn4CkvDV1ga/gOUcRIUzm1CG4A/Q+uvCM73GJ4PeFMGezBH80Xeb7NqnIq968HHWSHtIcsYJyDGmw8AadXAb/uwvicFTRmcSwbnKhbHAYPRW5GnCpkRRj6DZS7P1T9GuPZjWEcr/B+4thUA0iqAP0P3K5UQw/4j+3Ko9iaEEwCYRGgW8lWgowjXiNF/hKDXaRsBUB18IwJd7/W5X0yjADihYTgLqPYuQH+cTA9+DGcYoNFO5wsw8IHRmY+WzTB2hd/4IkQr8WudMXgUWGQBpTMcUt4/Gf9bjgbcj9J6ASxZ55TBygTqsr7M9Sdl8XKl2j4Ozxmuk2sfX0boVjyybToApN0bfp3PsTEso5i2SrX31FsBuAyWHeKYGpKKmETYX/gFcCAa15sIP+sihkfnvgaoUb3vA5hDxs85wxCmPRejSy7Y9s/F9OO5MZzzEOZphBF/qxnDeputrxDAvCwGQx63ffSp7YIYA6pTlrWBqW2TASDt3vBF46Ya6D/lw5oQ+Aj7qZ4uA2L0t+yNAkZ2upihe0EnU3WtGvbXwB/0UwvAXihGq08Sdjn4zWEMMAYzDfp1AIcB3ud5Nu868Wu+pVUcANKqge9HOFiRVtDrECOCfJr/xxFPBMXiJsvBKA8/H5w++m66/DL1uTi+AnBZBMHXPNMIrdz5lboL/Pw93lPS7g2/9Uk0rpmZs9couXHnpJjGhzkaEfhxGRjbhi/yrLXFtVejRzHsP/0Q8Xk3M6ymdRRicMlg0gLMXAd/BvMbgKsQdX5cBsb/AJ/abRyiYXhF/erytUj2vu6mTYInVQdfzuM+Q7ewoeMKqIzhkI8Mc9g+gGTRtvBLpoPbwagSvjj2vmTn7c5napll3oMvdJ8RDjKj3Ayt3+dovloT/LfUpsGTKoQvFmxjavOAwbbnaBkeOv0IAwoK3tOXc3zzTCzARoM5nr+aof5bgD5tEGVWzCXhJ4+Z4+EcDcPF3sLntvCXexWOTWV56NAjJn+UTOV9K+rzvoXoUE9/4XI/Gs2Wi8e7axvgSdIqgU+qvQlgy10+aT5DP7fxQw3dSR7R0n7H79I9pyT8pouDZDW/AH4n+PQEEMBOgpXbJEJ3kK9vir0PtKuY8qPrvAjwLFP+7bUt8CRplcFfqO3iueHxXl1IW+HX6N3gV0oz1G+qr6zaLuqF6auovZ6Y6+tlFrol9Yhf7Gg9Fmn4CkvDV1gavsLS8BWWhq+wNHyFpeErrAJ8/RNtNbTyJ9r64wxqaOXHGfRnWXZfaz/LIgNAf5Bp93TjB5m0qWcavsL2AxahiMFq5TtxAAAAAElFTkSuQmCC" InformativeScreenshot="2e1abff79aa64dddc3dadbff6ed49485.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/MRhoOBP45ke5ZEdsudTbmg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NCheckState DisplayName="Check App State ' 3 Shipping Method mod…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1224" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
+              <uix:NCheckState DisplayName="Check App State ' 3 Shipping Method mod…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486,1224" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="044bd962-1cb1-4198-af10-6ffc9f9c7819" Version="V5">
                 <uix:NCheckState.IfExists>
                   <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <sap:WorkflowViewStateService.ViewState>
@@ -461,14 +507,7 @@
           </ActivityFunc>
         </uix:NApplicationCard.OCREngine>
         <uix:NApplicationCard.TargetApp>
-          <uix:TargetApp Area="-8, -8, 1616, 868" BrowserType="Chrome" ContentHash="5gqIjR-RZkeIDOTrMqI_Zw" IconBase64="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" InformativeScreenshot="6ed17a807bbe200ff762eca9366dac6a.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/Dl3Jr8vZk02nBdb6ohw0AQ" Selector="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" Url="https://demo.prestashop.com/#/en/front" Version="V2">
-            <uix:TargetApp.Arguments>
-              <InArgument x:TypeArguments="x:String" />
-            </uix:TargetApp.Arguments>
-            <uix:TargetApp.WorkingDirectory>
-              <InArgument x:TypeArguments="x:String" />
-            </uix:TargetApp.WorkingDirectory>
-          </uix:TargetApp>
+          <uix:TargetApp Area="-8, -8, 1616, 868" BrowserType="Chrome" ContentHash="tEcVKw6XEUOnmZ5fxjOkEQ" IconBase64="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" InformativeScreenshot="d27938e1198306262ebdb50f3955911f.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/Dl3Jr8vZk02nBdb6ohw0AQ" Selector="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" Url="https://demo.prestashop.com/#/en/front" Version="V2" />
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>

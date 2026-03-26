@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="c9v4hC7lpEmcPHcOnDpehQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="T4yDoHJ4KEKPyjcLgBveuQ" Reference="Wl74oFLMWU6qtdAr1TfF8A/qnQgwe6dR0idmMN4om68tA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="303cc4fa-2331-4df4-9d88-e8aad8e0b8a0" CvElementArea="653, 446, 23, 23" CvType="RadioButton" DesignTimeRectangle="660, 452, 13, 13" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-id_gender-1' tag='INPUT' type='radio' class='' aaname='                                                                               Mr.             ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="06c81845-4a44-43c3-ac1f-710b5f8a4696" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="953b3a64-e5d1-481e-a319-7f16e9d8ce48" DesignTimeRectangle="453, 356, 48, 24" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' matching:id='fuzzy' fuzzylevel:id='0.0' tag='IFRAME' /&gt;&lt;webctrl type='' tag='DIV' visibleinnertext='Mr.' /&gt;" Guid="ccbc4408-f299-413f-9de2-864f2e83f3db" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="303cc4fa-2331-4df4-9d88-e8aad8e0b8a0" DesignTimeRectangle="656, 447, 50, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='radio-inline' tag='LABEL' type='' aaname='                              Mr.             ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Mr.' /&gt;" Guid="e4c01aa8-52c5-4981-a76d-572f2fd565cb" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="953b3a64-e5d1-481e-a319-7f16e9d8ce48" CvTextArea="475, 360, 26, 16" CvTextArgument="Mr." CvType="Text" DesignTimeRectangle="477, 356, 24, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='form-check-label' tag='LABEL' type='' aaname='                 Mr.               ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Mr.' /&gt;" Guid="9a313523-bb4b-4ef3-bd8d-a5034a93f38b" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <TargetAnchorable.PointOffset>
-        <PointOffset X="-2" Y="-1" />
-      </TargetAnchorable.PointOffset>
-      <imageRef attrName="InformativeScreenshot" originalValue="c940d37f15228637ec6ad2cb366201f6.jpg" xmlns="">0Pt61U8HUB0uukavleIsrfw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="06a716e3fb3a9237affb6f395230222c.jpg" xmlns="">0Mio1gIDw5UuzN9hfz2uAEA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

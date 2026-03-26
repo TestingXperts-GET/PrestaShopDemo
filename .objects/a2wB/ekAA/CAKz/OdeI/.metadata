@@ -1,0 +1,13 @@
+﻿{
+  "Name": "GDPR - Personal data  …",
+  "Type": "Element",
+  "Id": "OdeITQ2lp0WUmyzQ_QYU2w",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/OdeITQ2lp0WUmyzQ_QYU2w",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/CAKzbR8OI0SoP6VzqHBudQ",
+  "Created": "2026-03-26T10:12:26.691242Z",
+  "Updated": "2026-03-26T10:12:26.691242Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

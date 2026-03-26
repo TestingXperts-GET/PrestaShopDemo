@@ -161,7 +161,7 @@
       </ui:ReadRange.DataTable>
       <ui:ReadRange.WorkbookPath>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">ExcelPath</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">ExcelPath</CSharpValue>
         </InArgument>
       </ui:ReadRange.WorkbookPath>
     </ui:ReadRange>
@@ -237,13 +237,7 @@
                     </ar:passedStep>
                     <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home Sample 1 EXCEPTEUR…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
                       <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="fd6c53d1-01f1-475c-83f1-9cbbfa7501d6" ContentHash="0nKiMHt0AEaeUIxyhYVZ6Q" DesignTimeRectangle="310, 461, 126, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="a9ed8f34-37cd-4ed2-a321-a10a49929b00" InformativeScreenshot="32572b2a3b26ce5b30baf292b1a06f26.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/bQvGLS1080eHKZ71gdmcCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-                          <uix:TargetAnchorable.FullSelectorArgument>
-                            <InArgument x:TypeArguments="x:String">
-                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">"&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='js-product-list' tag='A' innertext='"+ProductName+"' /&gt;"</CSharpValue>
-                            </InArgument>
-                          </uix:TargetAnchorable.FullSelectorArgument>
-                        </uix:TargetAnchorable>
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="3b979bd8-e30a-4d2e-85b8-e5f7953f3a7f" ContentHash="HjMTof5NqE-fZHKD1lpG7g" DesignTimeRectangle="161, 692, 290, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aria-label='View product Customizable mug' tag='A' /&gt;" Guid="cf58d201-4dd7-4c9f-b58f-80b12cb092df" InformativeScreenshot="e1818fbb7aec65cfd3e0bd2c54dcf7c3.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/bQvGLS1080eHKZ71gdmcCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
                     <uix:NCheckState DisplayName="Check App State 'Home Accessories Home A…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,2905" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
@@ -268,10 +262,10 @@
                           </ar:passedStep>
                           <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Type your text here'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" ContentHash="kSLMu4c_WUeUIIOuYxdn7g" DesignTimeRectangle="836, 519, 500, 50" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-textField1' tag='TEXTAREA' type='' class='product-message' placeholder='Your message here' aaname='Type your text here' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c87edbd7-00dc-4b50-9de7-130cb98133f7" InformativeScreenshot="93fcd11a7bf1a4003fdda45614b118cc.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/RzD1HmBGy0CRSmKq2UMbKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" ContentHash="cNV9pNmPeECDNs0gmrueIQ" DesignTimeRectangle="914, 669, 518, 62" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='field-textField1' tag='TEXTAREA' type='' class='product-message' placeholder='Your message here' aaname='Type your text here' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c87edbd7-00dc-4b50-9de7-130cb98133f7" InformativeScreenshot="8ebe0e581cecff4473df9d5e7d59f6c0.jpg" IsResponsive="True" Reference="Wl74oFLMWU6qtdAr1TfF8A/RzD1HmBGy0CRSmKq2UMbKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" DesignTimeRectangle="836, 491, 131, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='LABEL' type='' class='' aaname='Type your text here' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Type your text here' /&gt;" Guid="ceb893ec-489f-45f5-9f08-139e89c1cbdb" SearchSteps="FuzzySelector" />
+                                    <uix:Target CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" DesignTimeRectangle="914, 640, 139, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='LABEL' type='' class='' aaname='Type your text here' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Type your text here' /&gt;" Guid="ceb893ec-489f-45f5-9f08-139e89c1cbdb" SearchSteps="FuzzySelector" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
                               </uix:TargetAnchorable>
@@ -284,7 +278,7 @@
                           </uix:NTypeInto>
                           <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save Customization'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
                             <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" ContentHash="4RPwsZrxKUGz6iGJSig6fQ" CvElementArea="1112, 607, 226, 42" CvTextArea="1133, 620, 184, 17" CvTextArgument="SAVE CUSTOMIZATION" CvType="Button" DesignTimeRectangle="1114, 610, 222, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="dfc7248b-c368-4673-af0d-d389b8f13186" InformativeScreenshot="2f2bd65c8ed297a5de07139ba4949c8b.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/A4IaW69HrUabXeG76d7JIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                              <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="e6c50e50-7f25-4014-82b8-3f8c2eb89a34" ContentHash="gxbpk5G_PkWYLygyYHyWMQ" DesignTimeRectangle="914, 769, 173, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="dfc7248b-c368-4673-af0d-d389b8f13186" InformativeScreenshot="af324a32fbb293cc8a8eda22ff637c5c.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/A4IaW69HrUabXeG76d7JIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                             </uix:NClick.Target>
                           </uix:NClick>
                           <uix:NCheckState DisplayName="Check App State 'happy badday'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1224" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="fbcc66f4-b5b8-4806-a391-7e0a20c7f5f3" Version="V5">
@@ -364,7 +358,7 @@
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
-                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="684167ee-448d-4336-87a4-c34516415422" ContentHash="u_qxmZVlYEmZjeot5_-b1w" DesignTimeRectangle="1114, 623, 222, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' aaname='Save Customization' name='submitCustomizedData' /&gt;" Guid="ee7e386b-8461-4ae2-ba75-a1a31af13e0e" InformativeScreenshot="7343d01728ff051a10de3ef6503604d4.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/i1E_dYk-l06Z-AHbl2QbHQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                        <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="c5712176-0bdd-4235-b310-b23d7c4cf898" ContentHash="cmI6SHABkUy1RrgXHiVYQQ" DesignTimeRectangle="914, 769, 173, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="62e99a41-b650-4117-b990-79cd1a5566ba" InformativeScreenshot="5f47af4f70300ff40bfa7d36052f3619.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/i1E_dYk-l06Z-AHbl2QbHQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
                   </Sequence>
@@ -391,13 +385,7 @@
                   </Sequence>
                 </uix:NCheckState.IfNotExists>
                 <uix:NCheckState.Target>
-                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="fd6c53d1-01f1-475c-83f1-9cbbfa7501d6" ContentHash="0nKiMHt0AEaeUIxyhYVZ6Q" DesignTimeRectangle="310, 461, 126, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="a9ed8f34-37cd-4ed2-a321-a10a49929b00" InformativeScreenshot="32572b2a3b26ce5b30baf292b1a06f26.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/bQvGLS1080eHKZ71gdmcCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-                    <uix:TargetAnchorable.FullSelectorArgument>
-                      <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">"&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='js-product-list' tag='A' innertext='"+ProductName+"' /&gt;"</CSharpValue>
-                      </InArgument>
-                    </uix:TargetAnchorable.FullSelectorArgument>
-                  </uix:TargetAnchorable>
+                  <uix:TargetAnchorable BrowserURL="demo.prestashop.com" CVScreenId="3b979bd8-e30a-4d2e-85b8-e5f7953f3a7f" ContentHash="HjMTof5NqE-fZHKD1lpG7g" DesignTimeRectangle="161, 692, 290, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aria-label='View product Customizable mug' tag='A' /&gt;" Guid="cf58d201-4dd7-4c9f-b58f-80b12cb092df" InformativeScreenshot="e1818fbb7aec65cfd3e0bd2c54dcf7c3.jpg" Reference="Wl74oFLMWU6qtdAr1TfF8A/bQvGLS1080eHKZ71gdmcCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NCheckState.Target>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">

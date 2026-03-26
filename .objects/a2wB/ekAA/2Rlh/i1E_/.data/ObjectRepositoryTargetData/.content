@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="u_qxmZVlYEmZjeot5_-b1w" Reference="Wl74oFLMWU6qtdAr1TfF8A/i1E_dYk-l06Z-AHbl2QbHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="cmI6SHABkUy1RrgXHiVYQQ" Reference="Wl74oFLMWU6qtdAr1TfF8A/i1E_dYk-l06Z-AHbl2QbHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="684167ee-448d-4336-87a4-c34516415422" DesignTimeRectangle="1114, 623, 222, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' aaname='Save Customization' name='submitCustomizedData' /&gt;" Guid="ee7e386b-8461-4ae2-ba75-a1a31af13e0e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="7343d01728ff051a10de3ef6503604d4.jpg" xmlns="">0Wc6oG5DVYEaqFzw7Pqoqow</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="c5712176-0bdd-4235-b310-b23d7c4cf898" DesignTimeRectangle="914, 769, 173, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="62e99a41-b650-4117-b990-79cd1a5566ba" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5f47af4f70300ff40bfa7d36052f3619.jpg" xmlns="">0SAhtIS5Ot0GUhMC4aUB4xw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

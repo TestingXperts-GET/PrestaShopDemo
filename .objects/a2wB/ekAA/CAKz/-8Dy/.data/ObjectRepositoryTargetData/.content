@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="J15oqOt0AkS9OAqw1Mb8wg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="H4ERMG-YMUSEV72NnsGXvQ" Reference="Wl74oFLMWU6qtdAr1TfF8A/-8Dy08YH5kGBWIRC6TtmDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="795fa003-3007-4a4e-bce6-1da9a3fc95b4" CvElementArea="623, 385, 354, 112" CvTextArea="749, 459, 102, 17" CvTextArgument="ADDRESSES" CvType="Button" DesignTimeRectangle="626, 387, 350, 107" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='addresses-link' tag='SPAN' /&gt;" Guid="c28232e5-89fa-40a5-a069-ba936406a775" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="e24ad211d6515d96e2a738e817e57575.jpg" xmlns="">00cIERUjxpUOVDw9kKMygSw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="c6c92a1d-d4d2-4648-85b2-d119fed10602" DesignTimeRectangle="810, 524, 311, 108" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl id='addresses_main_link' tag='A' /&gt;" Guid="51fe4e4c-cc99-436b-be39-2872a3360d71" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c6c92a1d-d4d2-4648-85b2-d119fed10602" CvTextArea="823, 591, 87, 17" CvTextArgument="Addresses" CvType="Text" DesignTimeRectangle="824, 592, 86, 16" ElementType="Text" Guid="28d4b4f1-944e-4e01-8a33-e50dfbd2de7b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d720d9abbfeb732a25768c06f6f72501.jpg" xmlns="">0RoDfYe0Sg0qp90G_FfHNYg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

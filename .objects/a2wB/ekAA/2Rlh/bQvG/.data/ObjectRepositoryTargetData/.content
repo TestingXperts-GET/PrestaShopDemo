@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="0nKiMHt0AEaeUIxyhYVZ6Q" Reference="Wl74oFLMWU6qtdAr1TfF8A/bQvGLS1080eHKZ71gdmcCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="HjMTof5NqE-fZHKD1lpG7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="fd6c53d1-01f1-475c-83f1-9cbbfa7501d6" DesignTimeRectangle="310, 461, 126, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="a9ed8f34-37cd-4ed2-a321-a10a49929b00" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <TargetAnchorable.FullSelectorArgument>
-        <p:InArgument x:TypeArguments="x:String">
-          <p:CSharpValue x:TypeArguments="x:String">"&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='js-product-list' tag='A' innertext='"+ProductName+"' /&gt;"</p:CSharpValue>
-        </p:InArgument>
-      </TargetAnchorable.FullSelectorArgument>
-      <imageRef attrName="InformativeScreenshot" originalValue="32572b2a3b26ce5b30baf292b1a06f26.jpg" xmlns="">0jlSOqt2VtEqpLCEB6_hmlA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3b979bd8-e30a-4d2e-85b8-e5f7953f3a7f" DesignTimeRectangle="161, 692, 290, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aria-label='View product Customizable mug' tag='A' /&gt;" Guid="cf58d201-4dd7-4c9f-b58f-80b12cb092df" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e1818fbb7aec65cfd3e0bd2c54dcf7c3.jpg" xmlns="">0vX70E1JXr0iA94m5RvqYDg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

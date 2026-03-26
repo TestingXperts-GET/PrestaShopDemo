@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="ZemTTpnOsE6I6ZKm0RramQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="9ZCOUHDCzEyNmdaXTvGnJQ" Reference="Wl74oFLMWU6qtdAr1TfF8A/leJUVdcqdU-NqQRtwxwmVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="4c3e46b7-421b-46cf-bf01-23c40d71ae52" DesignTimeRectangle="1241, 713, 387, 47" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aaname='Proceed to checkout' parentid='main' tag='A' /&gt;" Guid="b3eff8d6-2f1e-4199-8768-2a13c2a53334" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="b3dac62d704a73b286c354b221655ad1.jpg" xmlns="">0kUnTUIk2nkeSWjmXYACxKA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="b8b91c08-1c09-486c-a4e2-c654bb6434ff" DesignTimeRectangle="1033, 561, 416, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aaname='Proceed to checkout' parentid='center-column' tag='A' /&gt;" Guid="404dbb97-c503-417c-915b-8b6d918a7561" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="084f3b762d3df641fd40e785bc551866.jpg" xmlns="">0SVlt96t4g0SBlEZg_1hbIw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

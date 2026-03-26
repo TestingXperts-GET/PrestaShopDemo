@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="sh08XHebJUepOqaU32YQUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="GrKPcSBYV0OMFs2ZqavVSw" Reference="Wl74oFLMWU6qtdAr1TfF8A/o69_novwQ0mwc4uzkdLlWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="3d655cc8-9df0-4db7-83a6-77c10c29b9ff" DesignTimeRectangle="265, 490, 142, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='main' tag='SPAN' visibleinnertext='Back to your account' /&gt;" Guid="b5c988e5-97e5-4be5-a490-5745fa24c8f4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="c909b7a4ae8db4c57f6ec72eb786323a.jpg" xmlns="">017Djr0kp3EyRpvwG_E-N8A</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="ea4332c4-fc2b-45f3-8784-48e91eb2b3c1" DesignTimeRectangle="813, 543, 102, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='footer_customeraccount_title' tag='A' /&gt;" Guid="e66e7c76-4ce1-4793-96c8-e50cbef49e11" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c2f7d01dd424cad42ce69110268b3cc1.jpg" xmlns="">0xNz8MoZ2TkO9HuXhjHQzpg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

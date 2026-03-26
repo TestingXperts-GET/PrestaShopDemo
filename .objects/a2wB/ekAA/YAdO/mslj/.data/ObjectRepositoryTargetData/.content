@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="LuqReyWYm0WIxmcDmkTHww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="5O69fr3ABE6SpzPXSBiNgw" Reference="Wl74oFLMWU6qtdAr1TfF8A/msljCM93dkSS94-tF1ul6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="b94ffab6-7e0c-4fea-921a-2fc138c9dd1d" DesignTimeRectangle="283, 516, 1036, 20" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl parentid='notifications' tag='LI' /&gt;" Guid="90b8372b-a57e-4c12-a668-a7d125afe330" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="8d871ae9029c9094a8c7a5c490381611.jpg" xmlns="">04DsEPJtLXUa8OGNWRVGKeA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="367774d3-1292-483e-8e56-8db7a92dde01" CvTextArea="168, 474, 258, 19" CvTextArgument="Information successfully updated." CvType="Text" DesignTimeRectangle="153, 454, 1296, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aria-role='alert' tag='DIV' /&gt;" Guid="1e81b16e-1c17-4328-9571-459d6f6406d9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="50cb4e501c3f79fcf85798167d3e4b04.jpg" xmlns="">0BWDat-u850Kg8R2PPoQsRg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

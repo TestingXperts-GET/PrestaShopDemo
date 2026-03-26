@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="SD-O4v5Ux0qixVLdsRlQ-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="iEoG-N9GBUqOhGMH2UbGgQ" Reference="Wl74oFLMWU6qtdAr1TfF8A/WaAIcVaAWkuIcBiVXSbtXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="d572ba24-29e2-480e-b0c1-c3609ff52e68" DesignTimeRectangle="749, 477, 436, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;main&amp;gt;footer&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;p' parentid='blockEmailSubscription_displayFooterBefore' tag='P' /&gt;" Guid="fb40b309-219e-4337-91d4-5b64c1c1276a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="8068b619796899e8651b7007cdea2c7d.jpg" xmlns="">01JcWGf2LgkaJfHUI3ly_1w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.prestashop.com" CVScreenId="fbe6dd11-f7f2-4c9c-9e99-307cdb87cdbb" CvTextArea="718, 443, 397, 16" CvTextArgument="You have successfully subscribed to this newsletter." CvType="Text" DesignTimeRectangle="703, 422, 636, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='framelive' tag='IFRAME' /&gt;&lt;webctrl aria-role='alert' tag='DIV' /&gt;" Guid="6ee1443b-7ba6-4f12-8ec2-cfbbc8d0f847" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PrestaShop Live Demo' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="473c994144f838d47004b23a8d8de42f.jpg" xmlns="">0cb-rt0sk2km2MHc-Jpd9XQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

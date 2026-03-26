@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Place Order ",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ONzLo0OEyE68E11sEquYUg",
+  "Reference": "Wl74oFLMWU6qtdAr1TfF8A/ONzLo0OEyE68E11sEquYUg",
+  "ParentRef": "Wl74oFLMWU6qtdAr1TfF8A/Mwi2aSIBHkSCs955jKewew",
+  "Created": "2026-03-26T08:02:33.5261772Z",
+  "Updated": "2026-03-26T08:02:33.5261772Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
